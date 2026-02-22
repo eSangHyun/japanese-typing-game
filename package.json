@@ -1,0 +1,29 @@
+{
+    "name": "japanese-typing-game",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "next": "15.x",
+        "react": "19.x",
+        "react-dom": "19.x",
+        "wanakana": "^5.3.1",
+        "zustand": "^5.0.3",
+        "immer": "^10.1.1",
+        "howler": "^2.2.4"
+    },
+    "devDependencies": {
+        "typescript": "^5",
+        "@types/node": "^22",
+        "@types/react": "^19",
+        "@types/react-dom": "^19",
+        "@types/howler": "^2.2.12",
+        "eslint": "^9",
+        "eslint-config-next": "15.x"
+    }
+}

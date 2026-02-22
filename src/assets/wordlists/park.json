@@ -1,0 +1,437 @@
+[
+    {
+        "id": "park-001",
+        "japanese": "売掛金",
+        "reading": "うりかけきん",
+        "romaji": "urikakekin",
+        "meaning_ko": "외상매출금",
+        "category": "custom",
+        "difficulty": 2,
+        "tags": [
+            "자산",
+            "채권"
+        ]
+    },
+    {
+        "id": "park-002",
+        "japanese": "立替金",
+        "reading": "たてかえきん",
+        "romaji": "tatekaekin",
+        "meaning_ko": "선급금",
+        "category": "custom",
+        "difficulty": 2,
+        "tags": [
+            "자산"
+        ]
+    },
+    {
+        "id": "park-003",
+        "japanese": "前払費用",
+        "reading": "まえばらいひよう",
+        "romaji": "maebaraihiyou",
+        "meaning_ko": "선급비용",
+        "category": "custom",
+        "difficulty": 3,
+        "tags": [
+            "자산",
+            "비용"
+        ]
+    },
+    {
+        "id": "park-004",
+        "japanese": "仮払金",
+        "reading": "かりばらいきん",
+        "romaji": "karibaraikin",
+        "meaning_ko": "가지급금",
+        "category": "custom",
+        "difficulty": 2,
+        "tags": [
+            "자산"
+        ]
+    },
+    {
+        "id": "park-005",
+        "japanese": "売上高",
+        "reading": "うりあげだか",
+        "romaji": "uriagedaka",
+        "meaning_ko": "매출액",
+        "category": "custom",
+        "difficulty": 2,
+        "tags": [
+            "수익"
+        ]
+    },
+    {
+        "id": "park-006",
+        "japanese": "仕入高",
+        "reading": "しいれだか",
+        "romaji": "shiiredaka",
+        "meaning_ko": "매입액",
+        "category": "custom",
+        "difficulty": 2,
+        "tags": [
+            "비용"
+        ]
+    },
+    {
+        "id": "park-007",
+        "japanese": "研修費",
+        "reading": "けんしゅうひ",
+        "romaji": "kenshuuhi",
+        "meaning_ko": "연수비",
+        "category": "custom",
+        "difficulty": 2,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-008",
+        "japanese": "法定福利費",
+        "reading": "ほうていふくりひ",
+        "romaji": "houteifukurihi",
+        "meaning_ko": "법정복리비",
+        "category": "custom",
+        "difficulty": 4,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-009",
+        "japanese": "外注費",
+        "reading": "がいちゅうひ",
+        "romaji": "gaichuuhi",
+        "meaning_ko": "외주비",
+        "category": "custom",
+        "difficulty": 2,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-010",
+        "japanese": "荷造運賃",
+        "reading": "にづくりうんちん",
+        "romaji": "nizukuriunchin",
+        "meaning_ko": "포장운임",
+        "category": "custom",
+        "difficulty": 3,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-011",
+        "japanese": "広告宣伝費",
+        "reading": "こうこくせんでんひ",
+        "romaji": "koukokusendenhi",
+        "meaning_ko": "광고선전비",
+        "category": "custom",
+        "difficulty": 3,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-012",
+        "japanese": "交際費",
+        "reading": "こうさいひ",
+        "romaji": "kousaihi",
+        "meaning_ko": "접대비",
+        "category": "custom",
+        "difficulty": 2,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-013",
+        "japanese": "会議費",
+        "reading": "かいぎひ",
+        "romaji": "kaigihi",
+        "meaning_ko": "회의비",
+        "category": "custom",
+        "difficulty": 1,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-014",
+        "japanese": "旅費交通費",
+        "reading": "りょひこうつうひ",
+        "romaji": "ryohikoutsuuhi",
+        "meaning_ko": "여비교통비",
+        "category": "custom",
+        "difficulty": 3,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-015",
+        "japanese": "通信費",
+        "reading": "つうしんひ",
+        "romaji": "tsuushinhi",
+        "meaning_ko": "통신비",
+        "category": "custom",
+        "difficulty": 1,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-016",
+        "japanese": "販売促進費",
+        "reading": "はんばいそくしんひ",
+        "romaji": "hanbaisokushinhi",
+        "meaning_ko": "판매촉진비",
+        "category": "custom",
+        "difficulty": 4,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-017",
+        "japanese": "消耗品費",
+        "reading": "しょうもうひんひ",
+        "romaji": "shoumouhinho",
+        "meaning_ko": "소모품비",
+        "category": "custom",
+        "difficulty": 3,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-018",
+        "japanese": "事務用品費",
+        "reading": "じむようひんひ",
+        "romaji": "jimuyouhinho",
+        "meaning_ko": "사무용품비",
+        "category": "custom",
+        "difficulty": 3,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-019",
+        "japanese": "修繕費",
+        "reading": "しゅうぜんひ",
+        "romaji": "shuuzenhi",
+        "meaning_ko": "수선비",
+        "category": "custom",
+        "difficulty": 2,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-020",
+        "japanese": "水道光熱費",
+        "reading": "すいどうこうねつひ",
+        "romaji": "suidoukounetsuhi",
+        "meaning_ko": "수도광열비",
+        "category": "custom",
+        "difficulty": 4,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-021",
+        "japanese": "新聞図書費",
+        "reading": "しんぶんとしょひ",
+        "romaji": "shinbuntoshohi",
+        "meaning_ko": "신문도서비",
+        "category": "custom",
+        "difficulty": 3,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-022",
+        "japanese": "諸会費",
+        "reading": "しょかいひ",
+        "romaji": "shokaihi",
+        "meaning_ko": "제회비",
+        "category": "custom",
+        "difficulty": 2,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-023",
+        "japanese": "支払手数料",
+        "reading": "しはらいてすうりょう",
+        "romaji": "shiharaitesuuryou",
+        "meaning_ko": "지급수수료",
+        "category": "custom",
+        "difficulty": 3,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-024",
+        "japanese": "地代家賃",
+        "reading": "ちだいやちん",
+        "romaji": "chidaiyachin",
+        "meaning_ko": "지대임차료",
+        "category": "custom",
+        "difficulty": 3,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-025",
+        "japanese": "賃借料",
+        "reading": "ちんしゃくりょう",
+        "romaji": "chinshakuryou",
+        "meaning_ko": "임차료",
+        "category": "custom",
+        "difficulty": 3,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-026",
+        "japanese": "リース料",
+        "reading": "りーすりょう",
+        "romaji": "riisuryo",
+        "meaning_ko": "리스료",
+        "category": "custom",
+        "difficulty": 2,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-027",
+        "japanese": "租税公課",
+        "reading": "そぜいこうか",
+        "romaji": "sozeikouka",
+        "meaning_ko": "조세공과",
+        "category": "custom",
+        "difficulty": 3,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-028",
+        "japanese": "支払報酬費",
+        "reading": "しはらいほうしゅうひ",
+        "romaji": "shiharaihoushuu hi",
+        "meaning_ko": "지급보수비",
+        "category": "custom",
+        "difficulty": 4,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-029",
+        "japanese": "寄付金",
+        "reading": "きふきん",
+        "romaji": "kifukin",
+        "meaning_ko": "기부금",
+        "category": "custom",
+        "difficulty": 1,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-030",
+        "japanese": "研究開発費",
+        "reading": "けんきゅうかいはつひ",
+        "romaji": "kenkyuukaihatsuhi",
+        "meaning_ko": "연구개발비",
+        "category": "custom",
+        "difficulty": 4,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-031",
+        "japanese": "雑費",
+        "reading": "ざっぴ",
+        "romaji": "zappi",
+        "meaning_ko": "잡비",
+        "category": "custom",
+        "difficulty": 1,
+        "tags": [
+            "비용",
+            "판관비"
+        ]
+    },
+    {
+        "id": "park-032",
+        "japanese": "雑収入",
+        "reading": "ざっしゅうにゅう",
+        "romaji": "zasshuunyuu",
+        "meaning_ko": "잡수입",
+        "category": "custom",
+        "difficulty": 2,
+        "tags": [
+            "수익"
+        ]
+    },
+    {
+        "id": "park-033",
+        "japanese": "雑損失",
+        "reading": "ざっそんしつ",
+        "romaji": "zassonshitsu",
+        "meaning_ko": "잡손실",
+        "category": "custom",
+        "difficulty": 2,
+        "tags": [
+            "비용"
+        ]
+    },
+    {
+        "id": "park-034",
+        "japanese": "法人税等",
+        "reading": "ほうじんぜいとう",
+        "romaji": "houjinzeitou",
+        "meaning_ko": "법인세",
+        "category": "custom",
+        "difficulty": 3,
+        "tags": [
+            "세금"
+        ]
+    }
+]

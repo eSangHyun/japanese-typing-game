@@ -1,0 +1,1215 @@
+[
+    {
+        "id": "k001",
+        "reading": "こうせい",
+        "correctKanji": "構成",
+        "candidates": [
+            "構成",
+            "厚生",
+            "公正",
+            "校正",
+            "更生"
+        ],
+        "meaning_ko": "구성",
+        "difficulty": 3
+    },
+    {
+        "id": "k002",
+        "reading": "こうせい",
+        "correctKanji": "厚生",
+        "candidates": [
+            "構成",
+            "厚生",
+            "公正",
+            "校正",
+            "更生"
+        ],
+        "meaning_ko": "후생",
+        "difficulty": 3
+    },
+    {
+        "id": "k003",
+        "reading": "きしゃ",
+        "correctKanji": "記者",
+        "candidates": [
+            "記者",
+            "汽車",
+            "貴社",
+            "帰社"
+        ],
+        "meaning_ko": "기자",
+        "difficulty": 2
+    },
+    {
+        "id": "k004",
+        "reading": "きしゃ",
+        "correctKanji": "汽車",
+        "candidates": [
+            "記者",
+            "汽車",
+            "貴社",
+            "帰社"
+        ],
+        "meaning_ko": "기차",
+        "difficulty": 2
+    },
+    {
+        "id": "k005",
+        "reading": "きしゃ",
+        "correctKanji": "貴社",
+        "candidates": [
+            "記者",
+            "汽車",
+            "貴社",
+            "帰社"
+        ],
+        "meaning_ko": "귀사 (상대방의 회사)",
+        "difficulty": 2
+    },
+    {
+        "id": "k006",
+        "reading": "かいし",
+        "correctKanji": "開始",
+        "candidates": [
+            "開始",
+            "会誌",
+            "塊死"
+        ],
+        "meaning_ko": "개시",
+        "difficulty": 1
+    },
+    {
+        "id": "k007",
+        "reading": "せいかく",
+        "correctKanji": "性格",
+        "candidates": [
+            "性格",
+            "正確"
+        ],
+        "meaning_ko": "성격",
+        "difficulty": 2
+    },
+    {
+        "id": "k008",
+        "reading": "せいかく",
+        "correctKanji": "正確",
+        "candidates": [
+            "性格",
+            "正確"
+        ],
+        "meaning_ko": "정확",
+        "difficulty": 2
+    },
+    {
+        "id": "k009",
+        "reading": "いどう",
+        "correctKanji": "移動",
+        "candidates": [
+            "移動",
+            "異動",
+            "異同"
+        ],
+        "meaning_ko": "이동 (공간적)",
+        "difficulty": 2
+    },
+    {
+        "id": "k010",
+        "reading": "いどう",
+        "correctKanji": "異動",
+        "candidates": [
+            "移動",
+            "異動",
+            "異同"
+        ],
+        "meaning_ko": "이동 (인사 이동)",
+        "difficulty": 2
+    },
+    {
+        "id": "k011",
+        "reading": "じしん",
+        "correctKanji": "地震",
+        "candidates": [
+            "地震",
+            "自信",
+            "自身"
+        ],
+        "meaning_ko": "지진",
+        "difficulty": 1
+    },
+    {
+        "id": "k012",
+        "reading": "じしん",
+        "correctKanji": "自信",
+        "candidates": [
+            "地震",
+            "自信",
+            "自身"
+        ],
+        "meaning_ko": "자신 (믿음)",
+        "difficulty": 1
+    },
+    {
+        "id": "k013",
+        "reading": "じしん",
+        "correctKanji": "自身",
+        "candidates": [
+            "地震",
+            "自信",
+            "自身"
+        ],
+        "meaning_ko": "자신 (자기 자신)",
+        "difficulty": 1
+    },
+    {
+        "id": "k014",
+        "reading": "かいかい",
+        "correctKanji": "開会",
+        "candidates": [
+            "開会",
+            "改快",
+            "戒解"
+        ],
+        "meaning_ko": "개회",
+        "difficulty": 2
+    },
+    {
+        "id": "k015",
+        "reading": "こじん",
+        "correctKanji": "個人",
+        "candidates": [
+            "個人",
+            "故人",
+            "湖人"
+        ],
+        "meaning_ko": "개인",
+        "difficulty": 1
+    },
+    {
+        "id": "k016",
+        "reading": "こじん",
+        "correctKanji": "故人",
+        "candidates": [
+            "個人",
+            "故人",
+            "湖人"
+        ],
+        "meaning_ko": "고인 (죽은 사람)",
+        "difficulty": 2
+    },
+    {
+        "id": "k017",
+        "reading": "かんしょう",
+        "correctKanji": "鑑賞",
+        "candidates": [
+            "鑑賞",
+            "感傷",
+            "干渉",
+            "観賞"
+        ],
+        "meaning_ko": "감상 (예술)",
+        "difficulty": 3
+    },
+    {
+        "id": "k018",
+        "reading": "かんしょう",
+        "correctKanji": "干渉",
+        "candidates": [
+            "鑑賞",
+            "感傷",
+            "干渉",
+            "観賞"
+        ],
+        "meaning_ko": "간섭",
+        "difficulty": 3
+    },
+    {
+        "id": "k019",
+        "reading": "しじ",
+        "correctKanji": "指示",
+        "candidates": [
+            "指示",
+            "支持",
+            "師事"
+        ],
+        "meaning_ko": "지시",
+        "difficulty": 2
+    },
+    {
+        "id": "k020",
+        "reading": "しじ",
+        "correctKanji": "支持",
+        "candidates": [
+            "指示",
+            "支持",
+            "師事"
+        ],
+        "meaning_ko": "지지 (후원)",
+        "difficulty": 2
+    },
+    {
+        "id": "k021",
+        "reading": "きょうこう",
+        "correctKanji": "強行",
+        "candidates": [
+            "強行",
+            "恐慌",
+            "強硬"
+        ],
+        "meaning_ko": "강행",
+        "difficulty": 3
+    },
+    {
+        "id": "k022",
+        "reading": "たいしょう",
+        "correctKanji": "対象",
+        "candidates": [
+            "対象",
+            "対称",
+            "対照",
+            "大正"
+        ],
+        "meaning_ko": "대상",
+        "difficulty": 2
+    },
+    {
+        "id": "k023",
+        "reading": "たいしょう",
+        "correctKanji": "対照",
+        "candidates": [
+            "対象",
+            "対称",
+            "対照",
+            "大正"
+        ],
+        "meaning_ko": "대조",
+        "difficulty": 2
+    },
+    {
+        "id": "k024",
+        "reading": "かてい",
+        "correctKanji": "家庭",
+        "candidates": [
+            "家庭",
+            "過程",
+            "仮定",
+            "課程"
+        ],
+        "meaning_ko": "가정 (집)",
+        "difficulty": 2
+    },
+    {
+        "id": "k025",
+        "reading": "かてい",
+        "correctKanji": "仮定",
+        "candidates": [
+            "家庭",
+            "過程",
+            "仮定",
+            "課程"
+        ],
+        "meaning_ko": "가정 (IF)",
+        "difficulty": 2
+    },
+    {
+        "id": "k026",
+        "reading": "かてい",
+        "correctKanji": "過程",
+        "candidates": [
+            "家庭",
+            "過程",
+            "仮定",
+            "課程"
+        ],
+        "meaning_ko": "과정 (Process)",
+        "difficulty": 2
+    },
+    {
+        "id": "k027",
+        "reading": "いぎ",
+        "correctKanji": "意義",
+        "candidates": [
+            "意義",
+            "異議",
+            "威儀"
+        ],
+        "meaning_ko": "의의",
+        "difficulty": 3
+    },
+    {
+        "id": "k028",
+        "reading": "いぎ",
+        "correctKanji": "異議",
+        "candidates": [
+            "意義",
+            "異議",
+            "威儀"
+        ],
+        "meaning_ko": "이의 (반대)",
+        "difficulty": 3
+    },
+    {
+        "id": "k029",
+        "reading": "かいとう",
+        "correctKanji": "回答",
+        "candidates": [
+            "回答",
+            "解答",
+            "解凍"
+        ],
+        "meaning_ko": "회답",
+        "difficulty": 2
+    },
+    {
+        "id": "k030",
+        "reading": "かいとう",
+        "correctKanji": "解答",
+        "candidates": [
+            "回答",
+            "解答",
+            "解凍"
+        ],
+        "meaning_ko": "해답 (문제 풀이)",
+        "difficulty": 2
+    },
+    {
+        "id": "k031",
+        "reading": "せいそう",
+        "correctKanji": "清掃",
+        "candidates": [
+            "清掃",
+            "盛装",
+            "精巣"
+        ],
+        "meaning_ko": "청소",
+        "difficulty": 2
+    },
+    {
+        "id": "k032",
+        "reading": "ふくし",
+        "correctKanji": "福祉",
+        "candidates": [
+            "福祉",
+            "副詞",
+            "複写"
+        ],
+        "meaning_ko": "복지",
+        "difficulty": 3
+    },
+    {
+        "id": "k033",
+        "reading": "ふくし",
+        "correctKanji": "副詞",
+        "candidates": [
+            "福祉",
+            "副詞",
+            "複写"
+        ],
+        "meaning_ko": "부사 (Grammar)",
+        "difficulty": 3
+    },
+    {
+        "id": "k034",
+        "reading": "へいこう",
+        "correctKanji": "平衡",
+        "candidates": [
+            "平衡",
+            "平行",
+            "閉口"
+        ],
+        "meaning_ko": "평형",
+        "difficulty": 3
+    },
+    {
+        "id": "k035",
+        "reading": "へいこう",
+        "correctKanji": "平行",
+        "candidates": [
+            "平衡",
+            "平行",
+            "閉口"
+        ],
+        "meaning_ko": "평행",
+        "difficulty": 2
+    },
+    {
+        "id": "k036",
+        "reading": "せんもん",
+        "correctKanji": "専門",
+        "candidates": [
+            "専門",
+            "尖門"
+        ],
+        "meaning_ko": "전문",
+        "difficulty": 1
+    },
+    {
+        "id": "k037",
+        "reading": "しゅうり",
+        "correctKanji": "修理",
+        "candidates": [
+            "修理",
+            "受理",
+            "修復"
+        ],
+        "meaning_ko": "수리 (고침)",
+        "difficulty": 1
+    },
+    {
+        "id": "k038",
+        "reading": "じゅり",
+        "correctKanji": "受理",
+        "candidates": [
+            "修理",
+            "受理",
+            "修復"
+        ],
+        "meaning_ko": "수리 (접수)",
+        "difficulty": 3
+    },
+    {
+        "id": "k039",
+        "reading": "しゅじん",
+        "correctKanji": "主人",
+        "candidates": [
+            "主人",
+            "囚人",
+            "樹人"
+        ],
+        "meaning_ko": "주인",
+        "difficulty": 1
+    },
+    {
+        "id": "k040",
+        "reading": "しかく",
+        "correctKanji": "資格",
+        "candidates": [
+            "資格",
+            "視覚",
+            "死角",
+            "刺客"
+        ],
+        "meaning_ko": "자격",
+        "difficulty": 2
+    },
+    {
+        "id": "k041",
+        "reading": "しかく",
+        "correctKanji": "視覚",
+        "candidates": [
+            "資格",
+            "視覚",
+            "死角",
+            "刺客"
+        ],
+        "meaning_ko": "시각 (보는 감각)",
+        "difficulty": 2
+    },
+    {
+        "id": "k042",
+        "reading": "しかく",
+        "correctKanji": "死角",
+        "candidates": [
+            "資格",
+            "視覚",
+            "死角",
+            "刺客"
+        ],
+        "meaning_ko": "사각 (보이지 않는 곳)",
+        "difficulty": 3
+    },
+    {
+        "id": "k043",
+        "reading": "こうし",
+        "correctKanji": "講師",
+        "candidates": [
+            "講師",
+            "公私",
+            "格子",
+            "公示"
+        ],
+        "meaning_ko": "강사",
+        "difficulty": 2
+    },
+    {
+        "id": "k044",
+        "reading": "こうし",
+        "correctKanji": "公私",
+        "candidates": [
+            "講師",
+            "公私",
+            "格子",
+            "公示"
+        ],
+        "meaning_ko": "공사 (공적인 일과 사적인 일)",
+        "difficulty": 2
+    },
+    {
+        "id": "k045",
+        "reading": "こうし",
+        "correctKanji": "格子",
+        "candidates": [
+            "講師",
+            "公私",
+            "格子",
+            "公示"
+        ],
+        "meaning_ko": "격자",
+        "difficulty": 4
+    },
+    {
+        "id": "k046",
+        "reading": "きょうじ",
+        "correctKanji": "教授",
+        "candidates": [
+            "教授",
+            "強磁",
+            "享時"
+        ],
+        "meaning_ko": "교수",
+        "difficulty": 2
+    },
+    {
+        "id": "k047",
+        "reading": "きょうじゅ",
+        "correctKanji": "享受",
+        "candidates": [
+            "教授",
+            "享受",
+            "郷愁"
+        ],
+        "meaning_ko": "향유 (누림)",
+        "difficulty": 4
+    },
+    {
+        "id": "k048",
+        "reading": "ほうがく",
+        "correctKanji": "方角",
+        "candidates": [
+            "方角",
+            "法学",
+            "邦楽"
+        ],
+        "meaning_ko": "방각 (방향)",
+        "difficulty": 2
+    },
+    {
+        "id": "k049",
+        "reading": "ほうがく",
+        "correctKanji": "法学",
+        "candidates": [
+            "方角",
+            "法学",
+            "邦楽"
+        ],
+        "meaning_ko": "법학",
+        "difficulty": 2
+    },
+    {
+        "id": "k050",
+        "reading": "ほうがく",
+        "correctKanji": "邦楽",
+        "candidates": [
+            "方角",
+            "法学",
+            "邦楽"
+        ],
+        "meaning_ko": "방악 (전통 음악)",
+        "difficulty": 4
+    },
+    {
+        "id": "k051",
+        "reading": "てんかん",
+        "correctKanji": "転換",
+        "candidates": [
+            "転換",
+            "点火",
+            "点検"
+        ],
+        "meaning_ko": "전환",
+        "difficulty": 3
+    },
+    {
+        "id": "k052",
+        "reading": "ほうじん",
+        "correctKanji": "法人",
+        "candidates": [
+            "法人",
+            "邦人",
+            "法陣"
+        ],
+        "meaning_ko": "법인",
+        "difficulty": 3
+    },
+    {
+        "id": "k053",
+        "reading": "ほうじん",
+        "correctKanji": "邦人",
+        "candidates": [
+            "法人",
+            "邦人",
+            "法陣"
+        ],
+        "meaning_ko": "방인 (자기 나라 사람)",
+        "difficulty": 4
+    },
+    {
+        "id": "k054",
+        "reading": "しょうめい",
+        "correctKanji": "照明",
+        "candidates": [
+            "照明",
+            "証明",
+            "声明"
+        ],
+        "meaning_ko": "조명",
+        "difficulty": 2
+    },
+    {
+        "id": "k055",
+        "reading": "しょうめい",
+        "correctKanji": "証明",
+        "candidates": [
+            "照明",
+            "証明",
+            "声明"
+        ],
+        "meaning_ko": "증명",
+        "difficulty": 2
+    },
+    {
+        "id": "k056",
+        "reading": "しょうめい",
+        "correctKanji": "声明",
+        "candidates": [
+            "照明",
+            "証明",
+            "声明"
+        ],
+        "meaning_ko": "성명 (발표)",
+        "difficulty": 3
+    },
+    {
+        "id": "k057",
+        "reading": "けっさい",
+        "correctKanji": "決済",
+        "candidates": [
+            "決済",
+            "決裁",
+            "結細"
+        ],
+        "meaning_ko": "결제 (지불)",
+        "difficulty": 3
+    },
+    {
+        "id": "k058",
+        "reading": "けっさい",
+        "correctKanji": "決裁",
+        "candidates": [
+            "決済",
+            "決裁",
+            "結細"
+        ],
+        "meaning_ko": "결재 (승인)",
+        "difficulty": 4
+    },
+    {
+        "id": "k059",
+        "reading": "ぶんしょう",
+        "correctKanji": "文章",
+        "candidates": [
+            "文章",
+            "文賞",
+            "分証"
+        ],
+        "meaning_ko": "문장",
+        "difficulty": 1
+    },
+    {
+        "id": "k060",
+        "reading": "しよう",
+        "correctKanji": "仕様",
+        "candidates": [
+            "仕様",
+            "使用",
+            "私用",
+            "試用"
+        ],
+        "meaning_ko": "사양 (Specification)",
+        "difficulty": 3
+    },
+    {
+        "id": "k061",
+        "reading": "しよう",
+        "correctKanji": "使用",
+        "candidates": [
+            "仕様",
+            "使用",
+            "私用",
+            "試用"
+        ],
+        "meaning_ko": "사용",
+        "difficulty": 1
+    },
+    {
+        "id": "k062",
+        "reading": "しよう",
+        "correctKanji": "私用",
+        "candidates": [
+            "仕様",
+            "使用",
+            "私用",
+            "試用"
+        ],
+        "meaning_ko": "사용 (사적인 용도)",
+        "difficulty": 2
+    },
+    {
+        "id": "k063",
+        "reading": "じっし",
+        "correctKanji": "実施",
+        "candidates": [
+            "実施",
+            "実子",
+            "十指"
+        ],
+        "meaning_ko": "실시",
+        "difficulty": 2
+    },
+    {
+        "id": "k064",
+        "reading": "じっし",
+        "correctKanji": "実子",
+        "candidates": [
+            "実施",
+            "実子",
+            "十指"
+        ],
+        "meaning_ko": "실자 (친자식)",
+        "difficulty": 3
+    },
+    {
+        "id": "k065",
+        "reading": "ふきゅう",
+        "correctKanji": "普及",
+        "candidates": [
+            "普及",
+            "不朽",
+            "腐朽"
+        ],
+        "meaning_ko": "보급",
+        "difficulty": 3
+    },
+    {
+        "id": "k066",
+        "reading": "ふきゅう",
+        "correctKanji": "不朽",
+        "candidates": [
+            "普及",
+            "不朽",
+            "腐朽"
+        ],
+        "meaning_ko": "불후 (어려지지 않음)",
+        "difficulty": 4
+    },
+    {
+        "id": "k067",
+        "reading": "ぼうえき",
+        "correctKanji": "貿易",
+        "candidates": [
+            "貿易",
+            "防益",
+            "房役"
+        ],
+        "meaning_ko": "무역",
+        "difficulty": 2
+    },
+    {
+        "id": "k068",
+        "reading": "こうこく",
+        "correctKanji": "広告",
+        "candidates": [
+            "広告",
+            "公告",
+            "降伏"
+        ],
+        "meaning_ko": "광고",
+        "difficulty": 2
+    },
+    {
+        "id": "k069",
+        "reading": "こうこく",
+        "correctKanji": "公告",
+        "candidates": [
+            "広告",
+            "公告",
+            "降伏"
+        ],
+        "meaning_ko": "공고",
+        "difficulty": 4
+    },
+    {
+        "id": "k070",
+        "reading": "かんり",
+        "correctKanji": "管理",
+        "candidates": [
+            "管理",
+            "官吏",
+            "監理"
+        ],
+        "meaning_ko": "관리 (Management)",
+        "difficulty": 2
+    },
+    {
+        "id": "k071",
+        "reading": "かんり",
+        "correctKanji": "官吏",
+        "candidates": [
+            "管理",
+            "官吏",
+            "監理"
+        ],
+        "meaning_ko": "관리 (공무원)",
+        "difficulty": 5
+    },
+    {
+        "id": "k072",
+        "reading": "せいひん",
+        "correctKanji": "製品",
+        "candidates": [
+            "製品",
+            "製粉",
+            "清貧"
+        ],
+        "meaning_ko": "제품",
+        "difficulty": 1
+    },
+    {
+        "id": "k073",
+        "reading": "せいび",
+        "correctKanji": "整備",
+        "candidates": [
+            "整備",
+            "正味"
+        ],
+        "meaning_ko": "정비",
+        "difficulty": 3
+    },
+    {
+        "id": "k074",
+        "reading": "しょるい",
+        "correctKanji": "書類",
+        "candidates": [
+            "書類",
+            "諸類"
+        ],
+        "meaning_ko": "서류",
+        "difficulty": 1
+    },
+    {
+        "id": "k075",
+        "reading": "ていしゅつ",
+        "correctKanji": "提出",
+        "candidates": [
+            "提出",
+            "定室"
+        ],
+        "meaning_ko": "제출",
+        "difficulty": 2
+    },
+    {
+        "id": "k076",
+        "reading": "がくしゅう",
+        "correctKanji": "学習",
+        "candidates": [
+            "学習",
+            "合唱",
+            "合掌"
+        ],
+        "meaning_ko": "학습",
+        "difficulty": 1
+    },
+    {
+        "id": "k077",
+        "reading": "がくしゅう",
+        "correctKanji": "合唱",
+        "candidates": [
+            "学習",
+            "合唱",
+            "合掌"
+        ],
+        "meaning_ko": "합창",
+        "difficulty": 2
+    },
+    {
+        "id": "k078",
+        "reading": "きょうかい",
+        "programming": "境界",
+        "correctKanji": "境界",
+        "candidates": [
+            "境界",
+            "教会",
+            "協会",
+            "狂気"
+        ],
+        "meaning_ko": "경계",
+        "difficulty": 2
+    },
+    {
+        "id": "k079",
+        "reading": "きょうかい",
+        "correctKanji": "教会",
+        "candidates": [
+            "境界",
+            "教会",
+            "協会",
+            "狂気"
+        ],
+        "meaning_ko": "교회",
+        "difficulty": 2
+    },
+    {
+        "id": "k080",
+        "reading": "きょうかい",
+        "correctKanji": "協会",
+        "candidates": [
+            "境界",
+            "教会",
+            "協会",
+            "狂気"
+        ],
+        "meaning_ko": "협회",
+        "difficulty": 2
+    },
+    {
+        "id": "k081",
+        "reading": "さくせい",
+        "correctKanji": "作成",
+        "candidates": [
+            "作成",
+            "作製",
+            "咲精"
+        ],
+        "meaning_ko": "작성 (문서)",
+        "difficulty": 2
+    },
+    {
+        "id": "k082",
+        "reading": "さくせい",
+        "correctKanji": "作製",
+        "candidates": [
+            "作成",
+            "作製",
+            "咲精"
+        ],
+        "meaning_ko": "작제 (물건)",
+        "difficulty": 4
+    },
+    {
+        "id": "k083",
+        "reading": "じゅんび",
+        "correctKanji": "準備",
+        "candidates": [
+            "準備",
+            "準美"
+        ],
+        "meaning_ko": "준비",
+        "difficulty": 1
+    },
+    {
+        "id": "k084",
+        "reading": "てはい",
+        "correctKanji": "手配",
+        "candidates": [
+            "手配",
+            "手杯"
+        ],
+        "meaning_ko": "수배 (준비)",
+        "difficulty": 3
+    },
+    {
+        "id": "k085",
+        "reading": "かくにん",
+        "correctKanji": "確認",
+        "candidates": [
+            "確認",
+            "核仁"
+        ],
+        "meaning_ko": "확인",
+        "difficulty": 1
+    },
+    {
+        "id": "k086",
+        "reading": "けいかく",
+        "correctKanji": "計画",
+        "candidates": [
+            "計画",
+            "型枠"
+        ],
+        "meaning_ko": "계획",
+        "difficulty": 1
+    },
+    {
+        "id": "k087",
+        "reading": "じっこう",
+        "correctKanji": "実行",
+        "candidates": [
+            "実行",
+            "実効",
+            "失効"
+        ],
+        "meaning_ko": "실행",
+        "difficulty": 2
+    },
+    {
+        "id": "k088",
+        "reading": "じっこう",
+        "correctKanji": "実効",
+        "candidates": [
+            "実行",
+            "実効",
+            "失効"
+        ],
+        "meaning_ko": "실효 (실제 효력)",
+        "difficulty": 4
+    },
+    {
+        "id": "k089",
+        "reading": "じっこう",
+        "correctKanji": "失効",
+        "candidates": [
+            "実行",
+            "実効",
+            "失効"
+        ],
+        "meaning_ko": "실효 (효력을 잃음)",
+        "difficulty": 4
+    },
+    {
+        "id": "k090",
+        "reading": "きょうりょく",
+        "correctKanji": "協力",
+        "candidates": [
+            "協力",
+            "強力",
+            "恐力"
+        ],
+        "meaning_ko": "협력",
+        "difficulty": 2
+    },
+    {
+        "id": "k091",
+        "reading": "きょうりょく",
+        "correctKanji": "強力",
+        "candidates": [
+            "協力",
+            "強力",
+            "恐力"
+        ],
+        "meaning_ko": "강력",
+        "difficulty": 2
+    },
+    {
+        "id": "k092",
+        "reading": "とうじつ",
+        "correctKanji": "当日",
+        "candidates": [
+            "当日",
+            "冬実"
+        ],
+        "meaning_ko": "당일",
+        "difficulty": 1
+    },
+    {
+        "id": "k093",
+        "reading": "よくじつ",
+        "correctKanji": "翌日",
+        "candidates": [
+            "翌日",
+            "浴実"
+        ],
+        "meaning_ko": "익일",
+        "difficulty": 2
+    },
+    {
+        "id": "k094",
+        "reading": "ぜんじつ",
+        "correctKanji": "前日",
+        "candidates": [
+            "前日",
+            "全日"
+        ],
+        "meaning_ko": "전일",
+        "difficulty": 1
+    },
+    {
+        "id": "k095",
+        "reading": "けっか",
+        "correctKanji": "結果",
+        "candidates": [
+            "結果",
+            "結花",
+            "欠下"
+        ],
+        "meaning_ko": "결과",
+        "difficulty": 1
+    },
+    {
+        "id": "k096",
+        "reading": "げんいん",
+        "correctKanji": "原因",
+        "candidates": [
+            "原因",
+            "原員"
+        ],
+        "meaning_ko": "원인",
+        "difficulty": 2
+    },
+    {
+        "id": "k097",
+        "reading": "げんじょう",
+        "correctKanji": "現状",
+        "candidates": [
+            "現状",
+            "現像",
+            "舷門"
+        ],
+        "meaning_ko": "현상 (현재 상태)",
+        "difficulty": 2
+    },
+    {
+        "id": "k098",
+        "reading": "げんじょう",
+        "correctKanji": "現像",
+        "candidates": [
+            "現状",
+            "現像",
+            "舷門"
+        ],
+        "meaning_ko": "현상 (사진 인화)",
+        "difficulty": 4
+    },
+    {
+        "id": "k099",
+        "reading": "たいしょ",
+        "correctKanji": "対処",
+        "candidates": [
+            "対処",
+            "大暑",
+            "退去"
+        ],
+        "meaning_ko": "대처",
+        "difficulty": 3
+    },
+    {
+        "id": "k100",
+        "reading": "たいしょく",
+        "correctKanji": "退職",
+        "candidates": [
+            "退職",
+            "退色",
+            "大食堂"
+        ],
+        "meaning_ko": "퇴직",
+        "difficulty": 2
+    }
+]

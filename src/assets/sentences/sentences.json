@@ -1,0 +1,902 @@
+[
+    {
+        "id": "s001",
+        "japanese": "おはようございます。",
+        "reading": "おはようございます。",
+        "romaji": "ohayougozaimasu.",
+        "meaning_ko": "안녕하세요. (아침 인사)",
+        "category": "greeting",
+        "difficulty": 1
+    },
+    {
+        "id": "s002",
+        "japanese": "こんにちは。",
+        "reading": "こんにちは。",
+        "romaji": "konnichiha.",
+        "meaning_ko": "안녕하세요. (낮 인사)",
+        "category": "greeting",
+        "difficulty": 1
+    },
+    {
+        "id": "s003",
+        "japanese": "こんばんは。",
+        "reading": "こんばんは。",
+        "romaji": "konbanha.",
+        "meaning_ko": "안녕하세요. (저녁 인사)",
+        "category": "greeting",
+        "difficulty": 1
+    },
+    {
+        "id": "s004",
+        "japanese": "ありがとうございます。",
+        "reading": "ありがとうございます。",
+        "romaji": "arigatougozaimasu.",
+        "meaning_ko": "감사합니다.",
+        "category": "greeting",
+        "difficulty": 1
+    },
+    {
+        "id": "s005",
+        "japanese": "よろしくお願いします。",
+        "reading": "よろしくおねがいします。",
+        "romaji": "yoroshikuonegaishimasu.",
+        "meaning_ko": "잘 부탁드립니다.",
+        "category": "greeting",
+        "difficulty": 2
+    },
+    {
+        "id": "s006",
+        "japanese": "はじめまして。",
+        "reading": "はじめまして。",
+        "romaji": "hajimemashite.",
+        "meaning_ko": "처음 뵙겠습니다.",
+        "category": "greeting",
+        "difficulty": 1
+    },
+    {
+        "id": "s007",
+        "japanese": "おやすみなさい。",
+        "reading": "おやすみなさい。",
+        "romaji": "oyasuminasai.",
+        "meaning_ko": "안녕히 주무세요.",
+        "category": "greeting",
+        "difficulty": 1
+    },
+    {
+        "id": "s008",
+        "japanese": "すみません。",
+        "reading": "すみません。",
+        "romaji": "sumimasen.",
+        "meaning_ko": "실례합니다. / 저기요.",
+        "category": "greeting",
+        "difficulty": 1
+    },
+    {
+        "id": "s009",
+        "japanese": "ごめんなさい。",
+        "reading": "ごめんなさい。",
+        "romaji": "gomennasai.",
+        "meaning_ko": "미안합니다.",
+        "category": "greeting",
+        "difficulty": 1
+    },
+    {
+        "id": "s010",
+        "japanese": "いただきます。",
+        "reading": "いただきます。",
+        "romaji": "itadakimasu.",
+        "meaning_ko": "잘 먹겠습니다.",
+        "category": "greeting",
+        "difficulty": 1
+    },
+    {
+        "id": "s011",
+        "japanese": "ごちそうさまでした。",
+        "reading": "ごちそうさまでした。",
+        "romaji": "gochisousamadeshita.",
+        "meaning_ko": "잘 먹었습니다.",
+        "category": "greeting",
+        "difficulty": 2
+    },
+    {
+        "id": "s012",
+        "japanese": "お元気ですか。",
+        "reading": "おげんきですか。",
+        "romaji": "ogenki desuka.",
+        "meaning_ko": "잘 지내세요?",
+        "category": "greeting",
+        "difficulty": 1
+    },
+    {
+        "id": "s013",
+        "japanese": "お疲れ様でした。",
+        "reading": "おつかれさまでした。",
+        "romaji": "otsukaresama deshita.",
+        "meaning_ko": "수고하셨습니다.",
+        "category": "greeting",
+        "difficulty": 2
+    },
+    {
+        "id": "s014",
+        "japanese": "行ってきます。",
+        "reading": "いってきます。",
+        "romaji": "ittekimasu.",
+        "meaning_ko": "다녀오겠습니다.",
+        "category": "greeting",
+        "difficulty": 1
+    },
+    {
+        "id": "s015",
+        "japanese": "ただいま。",
+        "reading": "ただいま。",
+        "romaji": "tadaima.",
+        "meaning_ko": "다녀왔습니다.",
+        "category": "greeting",
+        "difficulty": 1
+    },
+    {
+        "id": "s016",
+        "japanese": "今日はいい天気ですね。",
+        "reading": "きょうはいいてんきですね。",
+        "romaji": "kyouha iitenkidesune.",
+        "meaning_ko": "오늘 날씨가 좋네요.",
+        "category": "daily",
+        "difficulty": 2
+    },
+    {
+        "id": "s017",
+        "japanese": "日本語を勉強しています。",
+        "reading": "にほんごをべんきょうしています。",
+        "romaji": "nihongowo benkyoushiteimasu.",
+        "meaning_ko": "일본어를 공부하고 있습니다.",
+        "category": "daily",
+        "difficulty": 2
+    },
+    {
+        "id": "s018",
+        "japanese": "電車で通勤しています。",
+        "reading": "でんしゃでつうきんしています。",
+        "romaji": "densyade tuukinsiteimasu.",
+        "meaning_ko": "전철로 통근하고 있습니다.",
+        "category": "daily",
+        "difficulty": 2
+    },
+    {
+        "id": "s019",
+        "japanese": "昼ごはんを食べましたか。",
+        "reading": "ひるごはんをたべましたか。",
+        "romaji": "hirugohanwo tabemashitaka.",
+        "meaning_ko": "점심을 드셨습니까?",
+        "category": "daily",
+        "difficulty": 2
+    },
+    {
+        "id": "s020",
+        "japanese": "今何時ですか。",
+        "reading": "いまなんじですか。",
+        "romaji": "ima nanjidesuka.",
+        "meaning_ko": "지금 몇 시입니까?",
+        "category": "daily",
+        "difficulty": 2
+    },
+    {
+        "id": "s021",
+        "japanese": "駅はどこですか。",
+        "reading": "えきはどこですか。",
+        "romaji": "ekiha doko desuka.",
+        "meaning_ko": "역은 어디입니까?",
+        "category": "daily",
+        "difficulty": 2
+    },
+    {
+        "id": "s022",
+        "japanese": "トイレはどこにありますか。",
+        "reading": "といれはどこにありますか。",
+        "romaji": "toireha dokoni arimasuka.",
+        "meaning_ko": "화장실은 어디에 있습니까?",
+        "category": "daily",
+        "difficulty": 2
+    },
+    {
+        "id": "s023",
+        "japanese": "もう少し待ってください。",
+        "reading": "もうすこしまってください。",
+        "romaji": "mousukoshi matttekudasai.",
+        "meaning_ko": "조금만 더 기다려 주세요.",
+        "category": "daily",
+        "difficulty": 2
+    },
+    {
+        "id": "s024",
+        "japanese": "もう一度言ってください。",
+        "reading": "もういちどいってください。",
+        "romaji": "mouichido ittekudasai.",
+        "meaning_ko": "한 번 더 말해 주세요.",
+        "category": "daily",
+        "difficulty": 2
+    },
+    {
+        "id": "s025",
+        "japanese": "わかりました。",
+        "reading": "わかりました。",
+        "romaji": "wakarimashita.",
+        "meaning_ko": "알겠습니다.",
+        "category": "daily",
+        "difficulty": 1
+    },
+    {
+        "id": "s026",
+        "japanese": "わかりません。",
+        "reading": "わかりません。",
+        "romaji": "wakarimasen.",
+        "meaning_ko": "모르겠습니다.",
+        "category": "daily",
+        "difficulty": 1
+    },
+    {
+        "id": "s027",
+        "japanese": "ゆっくり話してください。",
+        "reading": "ゆっくりはなしてください。",
+        "romaji": "yukkuri hanashitekudasai.",
+        "meaning_ko": "천천히 말해 주세요.",
+        "category": "daily",
+        "difficulty": 2
+    },
+    {
+        "id": "s028",
+        "japanese": "日本語が少し話せます。",
+        "reading": "にほんごがすこしはなせます。",
+        "romaji": "nihongoga sukoshi hanasemasu.",
+        "meaning_ko": "일본어를 조금 할 수 있습니다.",
+        "category": "daily",
+        "difficulty": 2
+    },
+    {
+        "id": "s029",
+        "japanese": "韓国から来ました。",
+        "reading": "かんこくからきました。",
+        "romaji": "kankokukara kimashita.",
+        "meaning_ko": "한국에서 왔습니다.",
+        "category": "daily",
+        "difficulty": 2
+    },
+    {
+        "id": "s030",
+        "japanese": "お名前は何ですか。",
+        "reading": "おなまえはなんですか。",
+        "romaji": "onamaeha nandesuka.",
+        "meaning_ko": "성함이 어떻게 되십니까?",
+        "category": "daily",
+        "difficulty": 2
+    },
+    {
+        "id": "s031",
+        "japanese": "いくらですか。",
+        "reading": "いくらですか。",
+        "romaji": "ikuradesuka.",
+        "meaning_ko": "얼마입니까?",
+        "category": "daily",
+        "difficulty": 1
+    },
+    {
+        "id": "s032",
+        "japanese": "これをください。",
+        "reading": "これをください。",
+        "romaji": "korewokudasai.",
+        "meaning_ko": "이것을 주세요.",
+        "category": "daily",
+        "difficulty": 1
+    },
+    {
+        "id": "s033",
+        "japanese": "メニューを見せてください。",
+        "reading": "めにゅーをみせてください。",
+        "romaji": "menyuuwo misetekudasai.",
+        "meaning_ko": "메뉴판을 보여 주세요.",
+        "category": "daily",
+        "difficulty": 2
+    },
+    {
+        "id": "s034",
+        "japanese": "予約をしたいです。",
+        "reading": "よやくをしたいです。",
+        "romaji": "yoyakuwo shitaidesu.",
+        "meaning_ko": "예약을 하고 싶습니다.",
+        "category": "daily",
+        "difficulty": 2
+    },
+    {
+        "id": "s035",
+        "japanese": "領収書をください。",
+        "reading": "りょうしゅうしょをください。",
+        "romaji": "ryoushushowo kudasai.",
+        "meaning_ko": "영수증을 주세요.",
+        "category": "daily",
+        "difficulty": 2
+    },
+    {
+        "id": "s036",
+        "japanese": "会議の準備ができています。",
+        "reading": "かいぎのじゅんびができています。",
+        "romaji": "kaigino junbiga dekiteimasu.",
+        "meaning_ko": "회의 준비가 되어 있습니다.",
+        "category": "business",
+        "difficulty": 3
+    },
+    {
+        "id": "s037",
+        "japanese": "資料を送ってください。",
+        "reading": "しりょうをおくってください。",
+        "romaji": "shiryouwo okuttekudasai.",
+        "meaning_ko": "자료를 보내 주세요.",
+        "category": "business",
+        "difficulty": 2
+    },
+    {
+        "id": "s038",
+        "japanese": "報告書を作成しました。",
+        "reading": "ほうこくしょをさくせいしました。",
+        "romaji": "houkokushowo sakuseishimashita.",
+        "meaning_ko": "보고서를 작성했습니다.",
+        "category": "business",
+        "difficulty": 3
+    },
+    {
+        "id": "s039",
+        "japanese": "スケジュールを確認します。",
+        "reading": "すけじゅーるをかくにんします。",
+        "romaji": "sukejyuuruwo kakuninshimasu.",
+        "meaning_ko": "일정을 확인하겠습니다.",
+        "category": "business",
+        "difficulty": 3
+    },
+    {
+        "id": "s040",
+        "japanese": "締め切りはいつですか。",
+        "reading": "しめきりはいつですか。",
+        "romaji": "shimekiriha itudesuka.",
+        "meaning_ko": "마감은 언제입니까?",
+        "category": "business",
+        "difficulty": 2
+    },
+    {
+        "id": "s041",
+        "japanese": "担当者に確認します。",
+        "reading": "たんとうしゃにかくにんします。",
+        "romaji": "tantousha ni kakuninshimasu.",
+        "meaning_ko": "담당자에게 확인하겠습니다.",
+        "category": "business",
+        "difficulty": 3
+    },
+    {
+        "id": "s042",
+        "japanese": "見積もりを送ります。",
+        "reading": "みつもりをおくります。",
+        "romaji": "mitumoriwookuri masu.",
+        "meaning_ko": "견적서를 보내겠습니다.",
+        "category": "business",
+        "difficulty": 3
+    },
+    {
+        "id": "s043",
+        "japanese": "契約書に署名します。",
+        "reading": "けいやくしょにしょめいします。",
+        "romaji": "keiyakushoni shomeishimasu.",
+        "meaning_ko": "계약서에 서명하겠습니다.",
+        "category": "business",
+        "difficulty": 3
+    },
+    {
+        "id": "s044",
+        "japanese": "出張の申請をしました。",
+        "reading": "しゅっちょうのしんせいをしました。",
+        "romaji": "shuttchounno shinseiwo shimashita.",
+        "meaning_ko": "출장 신청을 했습니다.",
+        "category": "business",
+        "difficulty": 3
+    },
+    {
+        "id": "s045",
+        "japanese": "来週の月曜日に打ち合わせをしましょう。",
+        "reading": "らいしゅうのげつようびにうちあわせをしましょう。",
+        "romaji": "raishuuno gettuyoubini uchiawasewo shimashou.",
+        "meaning_ko": "다음 주 월요일에 미팅을 합시다.",
+        "category": "business",
+        "difficulty": 4
+    },
+    {
+        "id": "s046",
+        "japanese": "プロジェクトの進捗を報告します。",
+        "reading": "ぷろじぇくとのしんちょくをほうこくします。",
+        "romaji": "purojekkutono shinchokuwo houkokushimasu.",
+        "meaning_ko": "프로젝트 진행상황을 보고합니다.",
+        "category": "business",
+        "difficulty": 4
+    },
+    {
+        "id": "s047",
+        "japanese": "ご確認よろしくお願いします。",
+        "reading": "ごかくにんよろしくおねがいします。",
+        "romaji": "gokakuinn yoroshikuonegaishimasu.",
+        "meaning_ko": "확인 부탁드립니다.",
+        "category": "business",
+        "difficulty": 3
+    },
+    {
+        "id": "s048",
+        "japanese": "お客様のご要望にお応えします。",
+        "reading": "おきゃくさまのごようぼうにおこたえします。",
+        "romaji": "okyakusamano goyoubou ni okotaeshimasu.",
+        "meaning_ko": "고객님의 요청에 응하겠습니다.",
+        "category": "business",
+        "difficulty": 4
+    },
+    {
+        "id": "s049",
+        "japanese": "ご不明な点はお問い合わせください。",
+        "reading": "ごふめいなてんはおといあわせください。",
+        "romaji": "gofumeina tenh aotoiawasekudasai.",
+        "meaning_ko": "불분명한 점은 문의해 주세요.",
+        "category": "business",
+        "difficulty": 4
+    },
+    {
+        "id": "s050",
+        "japanese": "この件についてご相談させてください。",
+        "reading": "このけんについてごそうだんさせてください。",
+        "romaji": "konoken ni tsuite gosoudann sasetekudasai.",
+        "meaning_ko": "이 건에 대해 상담하게 해 주세요.",
+        "category": "business",
+        "difficulty": 4
+    },
+    {
+        "id": "s051",
+        "japanese": "売上高が前年比で増加しました。",
+        "reading": "うりあげだかがぜんねんひでぞうかしました。",
+        "romaji": "uriagedakaga zennenhi de zoukashimashita.",
+        "meaning_ko": "매출액이 전년 대비 증가했습니다.",
+        "category": "accounting",
+        "difficulty": 3
+    },
+    {
+        "id": "s052",
+        "japanese": "経費の精算をお願いします。",
+        "reading": "けいひのせいさんをおねがいします。",
+        "romaji": "keihino seisanwo onegaishimasu.",
+        "meaning_ko": "경비 정산을 부탁드립니다.",
+        "category": "accounting",
+        "difficulty": 3
+    },
+    {
+        "id": "s053",
+        "japanese": "請求書を発行します。",
+        "reading": "せいきゅうしょをはっこうします。",
+        "romaji": "seikyuushowo hakkoushimasu.",
+        "meaning_ko": "청구서를 발행합니다.",
+        "category": "accounting",
+        "difficulty": 3
+    },
+    {
+        "id": "s054",
+        "japanese": "仕入れ先への支払いが完了しました。",
+        "reading": "しいれさきへのしはらいがかんりょうしました。",
+        "romaji": "shiiresakihenno shiharaikaga kanryoushimashita.",
+        "meaning_ko": "매입처 지급이 완료됐습니다.",
+        "category": "accounting",
+        "difficulty": 4
+    },
+    {
+        "id": "s055",
+        "japanese": "減価償却費を計上します。",
+        "reading": "げんかしょうきゃくひをけいじょうします。",
+        "romaji": "genkasyoukyakuhiwo keijoushimasu.",
+        "meaning_ko": "감가상각비를 계상합니다.",
+        "category": "accounting",
+        "difficulty": 4
+    },
+    {
+        "id": "s056",
+        "japanese": "月次決算を締め切ります。",
+        "reading": "つきじけっさんをしめきります。",
+        "romaji": "tsukiji kessanwo shimekiri masu.",
+        "meaning_ko": "월차 결산을 마감합니다.",
+        "category": "accounting",
+        "difficulty": 4
+    },
+    {
+        "id": "s057",
+        "japanese": "買掛金の残高を確認します。",
+        "reading": "かいかけきんのざんだかをかくにんします。",
+        "romaji": "kaikakekinnno zandakawo kakuninshimasu.",
+        "meaning_ko": "매입채무 잔액을 확인합니다.",
+        "category": "accounting",
+        "difficulty": 4
+    },
+    {
+        "id": "s058",
+        "japanese": "固定資産を登録します。",
+        "reading": "こていしさんをとうろくします。",
+        "romaji": "koteishisanwo tourukushimasu.",
+        "meaning_ko": "고정자산을 등록합니다.",
+        "category": "accounting",
+        "difficulty": 3
+    },
+    {
+        "id": "s059",
+        "japanese": "消費税の申告を行います。",
+        "reading": "しょうひぜいのしんこくをおこないます。",
+        "romaji": "shouhizeino shinkokuwo okonaimasu.",
+        "meaning_ko": "소비세 신고를 실시합니다.",
+        "category": "accounting",
+        "difficulty": 4
+    },
+    {
+        "id": "s060",
+        "japanese": "売掛金の回収状況を報告します。",
+        "reading": "うりかけきんのかいしゅうじょうきょうをほうこくします。",
+        "romaji": "urikakekinnno kaishuujokyouwo houkokushimasu.",
+        "meaning_ko": "매출채권 회수 상황을 보고합니다.",
+        "category": "accounting",
+        "difficulty": 5
+    },
+    {
+        "id": "s061",
+        "japanese": "仕訳帳に記入してください。",
+        "reading": "しわけちょうにきにゅうしてください。",
+        "romaji": "shiwakechodni kinyuushitekudasai.",
+        "meaning_ko": "분개장에 기입해 주세요.",
+        "category": "accounting",
+        "difficulty": 3
+    },
+    {
+        "id": "s062",
+        "japanese": "前払費用を翌月に振り替えます。",
+        "reading": "まえばらいひようをよくげつにふりかえます。",
+        "romaji": "maebaraihi youwoyokugetsu ni furikaemasu.",
+        "meaning_ko": "선급비용을 다음 달로 대체합니다.",
+        "category": "accounting",
+        "difficulty": 5
+    },
+    {
+        "id": "s063",
+        "japanese": "棚卸資産の評価を行います。",
+        "reading": "たなおろししさんのひょうかをおこないます。",
+        "romaji": "tanaoroshishisannno hyoukawo okonaimasu.",
+        "meaning_ko": "재고자산 평가를 실시합니다.",
+        "category": "accounting",
+        "difficulty": 5
+    },
+    {
+        "id": "s064",
+        "japanese": "引当金を計上する必要があります。",
+        "reading": "ひきあてきんをけいじょうするひつようがあります。",
+        "romaji": "hikiate kinnwo keijoususru hituyouga ari masu.",
+        "meaning_ko": "충당금을 계상할 필요가 있습니다.",
+        "category": "accounting",
+        "difficulty": 5
+    },
+    {
+        "id": "s065",
+        "japanese": "損益計算書を作成しています。",
+        "reading": "そんえきけいさんしょをさくせいしています。",
+        "romaji": "soneki keisanshowo sakuseishiteimasu.",
+        "meaning_ko": "손익계산서를 작성하고 있습니다.",
+        "category": "accounting",
+        "difficulty": 4
+    },
+    {
+        "id": "s066",
+        "japanese": "毎朝七時に起きます。",
+        "reading": "まいあさしちじにおきます。",
+        "romaji": "maiasa shichijini okimasu.",
+        "meaning_ko": "매일 아침 7시에 일어납니다.",
+        "category": "daily",
+        "difficulty": 2
+    },
+    {
+        "id": "s067",
+        "japanese": "週末は映画を見ます。",
+        "reading": "しゅうまつはえいがをみます。",
+        "romaji": "shuumatuha eigawo mimasu.",
+        "meaning_ko": "주말에는 영화를 봅니다.",
+        "category": "daily",
+        "difficulty": 2
+    },
+    {
+        "id": "s068",
+        "japanese": "コーヒーが好きです。",
+        "reading": "こーひーがすきです。",
+        "romaji": "koohiiga sukidesu.",
+        "meaning_ko": "커피를 좋아합니다.",
+        "category": "daily",
+        "difficulty": 1
+    },
+    {
+        "id": "s069",
+        "japanese": "日本料理が食べたいです。",
+        "reading": "にほんりょうりがたべたいです。",
+        "romaji": "nihon ryouriga tabetaidesu.",
+        "meaning_ko": "일본 요리가 먹고 싶습니다.",
+        "category": "daily",
+        "difficulty": 2
+    },
+    {
+        "id": "s070",
+        "japanese": "音楽を聴きながら仕事をします。",
+        "reading": "おんがくをききながらしごとをします。",
+        "romaji": "ongakuwo kikinagara shigotowo shimasu.",
+        "meaning_ko": "음악을 들으면서 일합니다.",
+        "category": "daily",
+        "difficulty": 3
+    },
+    {
+        "id": "s071",
+        "japanese": "友達と一緒に旅行しました。",
+        "reading": "ともだちといっしょにりょこうしました。",
+        "romaji": "tomodachito issho ni ryokousimashita.",
+        "meaning_ko": "친구와 함께 여행했습니다.",
+        "category": "daily",
+        "difficulty": 3
+    },
+    {
+        "id": "s072",
+        "japanese": "先週から日本語の授業を受けています。",
+        "reading": "せんしゅうからにほんごのじゅぎょうをうけています。",
+        "romaji": "senshuu kara nihongono jugyouwo uketeimasu.",
+        "meaning_ko": "지난주부터 일본어 수업을 받고 있습니다.",
+        "category": "daily",
+        "difficulty": 3
+    },
+    {
+        "id": "s073",
+        "japanese": "毎日三十分ジョギングします。",
+        "reading": "まいにちさんじゅっぷんじょぎんぐします。",
+        "romaji": "mainichi sanjuppunn jogingushimasu.",
+        "meaning_ko": "매일 30분 조깅합니다.",
+        "category": "daily",
+        "difficulty": 3
+    },
+    {
+        "id": "s074",
+        "japanese": "今夜は残業になりそうです。",
+        "reading": "こんやはざんぎょうになりそうです。",
+        "romaji": "konyaha zangyouni narisoudesu.",
+        "meaning_ko": "오늘 밤은 야근이 될 것 같습니다.",
+        "category": "daily",
+        "difficulty": 3
+    },
+    {
+        "id": "s075",
+        "japanese": "有給休暇を取りたいと思います。",
+        "reading": "ゆうきゅうきゅうかをとりたいとおもいます。",
+        "romaji": "yuukyuu kyuukawotori taito omoimasu.",
+        "meaning_ko": "유급휴가를 쓰고 싶습니다.",
+        "category": "daily",
+        "difficulty": 3
+    },
+    {
+        "id": "s076",
+        "japanese": "新幹線に乗って大阪に行きます。",
+        "reading": "しんかんせんにのっておおさかにいきます。",
+        "romaji": "shinkansen ni notte oosakani ikimasu.",
+        "meaning_ko": "신칸센을 타고 오사카에 갑니다.",
+        "category": "daily",
+        "difficulty": 3
+    },
+    {
+        "id": "s077",
+        "japanese": "この書類にサインをお願いします。",
+        "reading": "このしょるいにさいんをおねがいします。",
+        "romaji": "konoshoryuuni sainnwo onegaishimasu.",
+        "meaning_ko": "이 서류에 사인을 부탁드립니다.",
+        "category": "business",
+        "difficulty": 3
+    },
+    {
+        "id": "s078",
+        "japanese": "会議室を予約できますか。",
+        "reading": "かいぎしつをよやくできますか。",
+        "romaji": "kaigishituwo yoyaku dekimasuka.",
+        "meaning_ko": "회의실을 예약할 수 있습니까?",
+        "category": "business",
+        "difficulty": 3
+    },
+    {
+        "id": "s079",
+        "japanese": "添付ファイルをご確認ください。",
+        "reading": "てんぷふぁいるをごかくにんください。",
+        "romaji": "tenpufairuwo gokakuinnkudasai.",
+        "meaning_ko": "첨부 파일을 확인해 주세요.",
+        "category": "business",
+        "difficulty": 3
+    },
+    {
+        "id": "s080",
+        "japanese": "社内規定を遵守してください。",
+        "reading": "しゃないきていをじゅんしゅしてください。",
+        "romaji": "shanai kiteiwo junsyusite kudasai.",
+        "meaning_ko": "사내 규정을 준수해 주세요.",
+        "category": "business",
+        "difficulty": 4
+    },
+    {
+        "id": "s081",
+        "japanese": "ご意見をお聞かせください。",
+        "reading": "ごいけんをおきかせください。",
+        "romaji": "goikennwo okikasekudasai.",
+        "meaning_ko": "의견을 들려 주세요.",
+        "category": "business",
+        "difficulty": 3
+    },
+    {
+        "id": "s082",
+        "japanese": "品質管理を徹底します。",
+        "reading": "ひんしつかんりをてっていします。",
+        "romaji": "hinshitu kanriwo tettei shimasu.",
+        "meaning_ko": "품질 관리를 철저히 합니다.",
+        "category": "business",
+        "difficulty": 4
+    },
+    {
+        "id": "s083",
+        "japanese": "新しいシステムを導入しました。",
+        "reading": "あたらしいしすてむをどうにゅうしました。",
+        "romaji": "atarashii sisutemuwo dounyuushimashita.",
+        "meaning_ko": "새로운 시스템을 도입했습니다.",
+        "category": "business",
+        "difficulty": 3
+    },
+    {
+        "id": "s084",
+        "japanese": "お振込みを確認しました。",
+        "reading": "おふりこみをかくにんしました。",
+        "romaji": "ofurikomowo kakuninshimashita.",
+        "meaning_ko": "송금을 확인했습니다.",
+        "category": "accounting",
+        "difficulty": 3
+    },
+    {
+        "id": "s085",
+        "japanese": "源泉徴収税を計算します。",
+        "reading": "げんせんちょうしゅうぜいをけいさんします。",
+        "romaji": "gensen choushuuzeiwo keisannshimasu.",
+        "meaning_ko": "원천징수세를 계산합니다.",
+        "category": "accounting",
+        "difficulty": 5
+    },
+    {
+        "id": "s086",
+        "japanese": "決算報告書を提出します。",
+        "reading": "けっさんほうこくしょをていしゅつします。",
+        "romaji": "kessan houkokushowo teishutushimasu.",
+        "meaning_ko": "결산 보고서를 제출합니다.",
+        "category": "accounting",
+        "difficulty": 4
+    },
+    {
+        "id": "s087",
+        "japanese": "経常利益は前期比増加しました。",
+        "reading": "けいじょうりえきはぜんきひぞうかしました。",
+        "romaji": "keijou riekiha zenkihi zoukashimashita.",
+        "meaning_ko": "경상이익은 전기 대비 증가했습니다.",
+        "category": "accounting",
+        "difficulty": 5
+    },
+    {
+        "id": "s088",
+        "japanese": "予算超過にならないよう管理します。",
+        "reading": "よさんちょうかにならないようかんりします。",
+        "romaji": "yosan choukani naranai you kanrishimasu.",
+        "meaning_ko": "예산 초과가 되지 않도록 관리합니다.",
+        "category": "accounting",
+        "difficulty": 4
+    },
+    {
+        "id": "s089",
+        "japanese": "現金出納帳を記録します。",
+        "reading": "げんきんすいとうちょうをきろくします。",
+        "romaji": "genkinn suitouchouwokirokushimasu.",
+        "meaning_ko": "현금출납장을 기록합니다.",
+        "category": "accounting",
+        "difficulty": 4
+    },
+    {
+        "id": "s090",
+        "japanese": "社会保険料を納付します。",
+        "reading": "しゃかいほけんりょうをのうふします。",
+        "romaji": "shakai hokennryouwo noufushimasu.",
+        "meaning_ko": "사회보험료를 납부합니다.",
+        "category": "accounting",
+        "difficulty": 4
+    },
+    {
+        "id": "s091",
+        "japanese": "春になると桜が咲きます。",
+        "reading": "はるになるとさくらがさきます。",
+        "romaji": "haru ni naruto sakuragasakimasu.",
+        "meaning_ko": "봄이 되면 벚꽃이 핍니다.",
+        "category": "nature",
+        "difficulty": 2
+    },
+    {
+        "id": "s092",
+        "japanese": "日本は四季がはっきりしています。",
+        "reading": "にほんはしきがはっきりしています。",
+        "romaji": "nihonha shikiga hakkiri shiteimasu.",
+        "meaning_ko": "일본은 사계절이 뚜렷합니다.",
+        "category": "nature",
+        "difficulty": 3
+    },
+    {
+        "id": "s093",
+        "japanese": "台風が近づいています。",
+        "reading": "たいふうがちかづいています。",
+        "romaji": "taifuuga chikaduite imasu.",
+        "meaning_ko": "태풍이 다가오고 있습니다.",
+        "category": "nature",
+        "difficulty": 3
+    },
+    {
+        "id": "s094",
+        "japanese": "富士山は日本一高い山です。",
+        "reading": "ふじさんはにほんいちたかいやまです。",
+        "romaji": "fujisannha nihonnichi takai yamadesu.",
+        "meaning_ko": "후지산은 일본에서 가장 높은 산입니다.",
+        "category": "nature",
+        "difficulty": 3
+    },
+    {
+        "id": "s095",
+        "japanese": "今年の夏はとても暑かったです。",
+        "reading": "ことしのなつはとてもあつかったです。",
+        "romaji": "kotoshi no natsuha totemo atukattadesu.",
+        "meaning_ko": "올해 여름은 매우 더웠습니다.",
+        "category": "nature",
+        "difficulty": 3
+    },
+    {
+        "id": "s096",
+        "japanese": "健康のために毎日野菜を食べています。",
+        "reading": "けんこうのためにまいにちやさいをたべています。",
+        "romaji": "kenkou no tameni mainichi yasaiwo tabeteimasu.",
+        "meaning_ko": "건강을 위해 매일 채소를 먹고 있습니다.",
+        "category": "health",
+        "difficulty": 3
+    },
+    {
+        "id": "s097",
+        "japanese": "最近仕事が忙しくてストレスがたまっています。",
+        "reading": "さいきんしごとがいそがしくてすとれすがたまっています。",
+        "romaji": "saikinn shigotoga isogashikute sutoressuga tamatte imasu.",
+        "meaning_ko": "최근 일이 바빠서 스트레스가 쌓이고 있습니다.",
+        "category": "health",
+        "difficulty": 4
+    },
+    {
+        "id": "s098",
+        "japanese": "週に三回ジムに通っています。",
+        "reading": "しゅうにさんかいじむにかよっています。",
+        "romaji": "shuuni sankaikaijimu ni kayotteimasu.",
+        "meaning_ko": "일주일에 세 번 헬스장에 다니고 있습니다.",
+        "category": "health",
+        "difficulty": 3
+    },
+    {
+        "id": "s099",
+        "japanese": "テクノロジーの進化が目覚ましいです。",
+        "reading": "てくのろじーのしんかがめざましいです。",
+        "romaji": "tekunorojii no shinnga mezamashiidesu.",
+        "meaning_ko": "기술의 발전이 눈부십니다.",
+        "category": "tech",
+        "difficulty": 4
+    },
+    {
+        "id": "s100",
+        "japanese": "人工知能は私たちの生活を変えつつあります。",
+        "reading": "じんこうちのうはわたしたちのせいかつをかえつつあります。",
+        "romaji": "jinnkou chinouha watashitachino seikatshuwo kae tsutsu arimasu.",
+        "meaning_ko": "인공지능은 우리의 생활을 바꾸고 있습니다.",
+        "category": "tech",
+        "difficulty": 5
+    }
+]

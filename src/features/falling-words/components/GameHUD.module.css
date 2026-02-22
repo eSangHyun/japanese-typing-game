@@ -1,0 +1,59 @@
+.hud {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 24px;
+    background: var(--bg-glass);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    gap: 8px;
+}
+
+.hudItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    min-width: 60px;
+}
+
+.label {
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+
+.value {
+    font-family: var(--font-mono);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1;
+}
+
+.comboActive {
+    animation: pop 0.2s ease;
+}
+
+.lives {
+    display: flex;
+    gap: 3px;
+}
+
+.heart {
+    font-size: 18px;
+    line-height: 1;
+    transition: transform var(--transition-fast), color var(--transition-fast);
+}
+
+.heartFull {
+    color: var(--danger);
+    filter: drop-shadow(0 0 6px var(--danger));
+    animation: heartbeat 1.5s ease infinite;
+}
+
+.heartEmpty {
+    color: var(--text-muted);
+}

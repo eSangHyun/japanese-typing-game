@@ -1,0 +1,605 @@
+.page {
+    min-height: 100vh;
+    background: var(--bg-primary);
+    display: flex;
+    flex-direction: column;
+}
+
+/* ─── 헤더 ──────────────────────────────────────────── */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 24px;
+    background: var(--bg-glass);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+}
+
+.backBtn {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 13px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color var(--transition-fast);
+    width: 80px;
+}
+
+.backBtn:hover {
+    color: var(--text-primary);
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* ─── 셋업 ──────────────────────────────────────────── */
+.setupBody {
+    max-width: 780px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 28px 24px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.setupSection {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.setupSectionTitle {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.setGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 10px;
+}
+
+.setCard {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 16px;
+    background: var(--bg-glass);
+    border: 2px solid var(--border);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    text-align: left;
+    transition: all var(--transition-fast);
+}
+
+.setCard:hover {
+    border-color: var(--accent-primary);
+}
+
+.setCardActive {
+    border-color: var(--accent-primary) !important;
+    background: var(--accent-gradient-subtle) !important;
+}
+
+.setCardCheck {
+    width: 22px;
+    height: 22px;
+    border-radius: var(--radius-sm);
+    border: 2px solid var(--border);
+    background: var(--bg-tertiary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    flex-shrink: 0;
+}
+
+.setCardActive .setCardCheck {
+    background: var(--accent-gradient);
+    border-color: transparent;
+}
+
+.setCardBody {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.setCardLabel {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.setCardSub {
+    font-size: 11px;
+    color: var(--text-muted);
+}
+
+.selectedCount {
+    font-size: 13px;
+    color: var(--text-secondary);
+}
+
+.selectedCount strong {
+    color: var(--text-primary);
+}
+
+.countBtns {
+    display: flex;
+    gap: 10px;
+}
+
+.countBtn {
+    padding: 10px 20px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border);
+    background: var(--bg-glass);
+    color: var(--text-secondary);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.countBtn:hover {
+    background: var(--bg-glass-light);
+    color: var(--text-primary);
+}
+
+.countBtnActive {
+    background: var(--accent-gradient) !important;
+    border-color: transparent !important;
+    color: #fff !important;
+}
+
+.optionBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border);
+    background: var(--bg-glass);
+    color: var(--text-secondary);
+    font-size: 13px;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.optionBtn:hover {
+    background: var(--bg-glass-light);
+}
+
+.optionBtnActive {
+    background: var(--accent-gradient-subtle) !important;
+    border-color: var(--border-accent) !important;
+    color: var(--accent-secondary) !important;
+}
+
+/* ─── 오십음도 참고표 ────────────────────────────────── */
+.kanaTable {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: var(--bg-glass);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 16px;
+    overflow-x: auto;
+}
+
+.kanaRow {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.kanaRowLabel {
+    width: 40px;
+    font-size: 12px;
+    color: var(--text-muted);
+    flex-shrink: 0;
+    text-align: right;
+}
+
+.kanaCell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 52px;
+    padding: 6px 4px;
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-sm);
+    gap: 2px;
+}
+
+.kanaCellEmpty {
+    width: 52px;
+    height: 48px;
+}
+
+.kanaCellMain {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.kanaCellRomaji {
+    font-size: 10px;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+}
+
+.startBtn {
+    align-self: center;
+    padding: 16px 48px;
+    background: var(--accent-gradient);
+    border: none;
+    border-radius: var(--radius-xl);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--font-jp);
+    cursor: pointer;
+    box-shadow: var(--shadow-glow-pink);
+    transition: all var(--transition-fast);
+}
+
+.startBtn:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+/* ─── 연습 화면 ─────────────────────────────────────── */
+.practicePage {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-primary);
+    overflow: hidden;
+    position: relative;
+}
+
+.flashOverlay {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 10;
+    animation: flashAnim 0.3s ease forwards;
+    border-radius: 0;
+}
+
+.flashCorrect {
+    background: rgba(63, 185, 80, 0.12);
+}
+
+.flashWrong {
+    background: rgba(248, 81, 73, 0.12);
+}
+
+@keyframes flashAnim {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.hud {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px 20px;
+    background: var(--bg-glass);
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+}
+
+.exitBtn {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 16px;
+    cursor: pointer;
+    transition: color var(--transition-fast);
+}
+
+.exitBtn:hover {
+    color: var(--danger);
+}
+
+.progressWrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.progressBar {
+    flex: 1;
+    height: 6px;
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-full);
+    overflow: hidden;
+}
+
+.progressFill {
+    height: 100%;
+    background: var(--accent-gradient);
+    border-radius: var(--radius-full);
+    transition: width 0.3s ease;
+}
+
+.progressText {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--text-secondary);
+}
+
+.streakBadge {
+    font-size: 14px;
+    font-weight: 700;
+    min-width: 40px;
+    text-align: right;
+}
+
+/* ─── 카드 ──────────────────────────────────────────── */
+.practiceCenter {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.kanaCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    background: var(--bg-glass);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    padding: 40px 56px;
+    width: min(480px, 100%);
+    box-shadow: var(--shadow-lg);
+    animation: fadeIn 0.2s ease;
+}
+
+.kanaCardShake {
+    animation: shake 0.4s ease;
+}
+
+.kanaNum {
+    font-size: 12px;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+}
+
+.mainKana {
+    font-size: 96px;
+    font-weight: 800;
+    color: var(--text-primary);
+    line-height: 1;
+    text-shadow: 0 0 40px rgba(255, 107, 157, 0.25);
+}
+
+.kataKana {
+    font-size: 24px;
+    color: var(--text-secondary);
+}
+
+.typeBadge {
+    font-family: var(--font-jp);
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--accent-secondary);
+    background: rgba(192, 132, 252, 0.12);
+    border: 1px solid rgba(192, 132, 252, 0.3);
+    border-radius: var(--radius-full);
+    padding: 3px 12px;
+}
+
+.kanaInput {
+    width: 100%;
+    max-width: 280px;
+    background: var(--bg-tertiary);
+    border: 2px solid var(--border);
+    border-radius: var(--radius-md);
+    color: var(--text-primary);
+    font-family: var(--font-mono);
+    font-size: 24px;
+    font-weight: 600;
+    padding: 12px 18px;
+    text-align: center;
+    outline: none;
+    caret-color: var(--accent-primary);
+    transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.kanaInput:focus {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 3px rgba(255, 107, 157, 0.15);
+}
+
+.kanaInputError {
+    border-color: var(--danger) !important;
+    box-shadow: 0 0 0 3px rgba(248, 81, 73, 0.2) !important;
+}
+
+.enterHint {
+    font-size: 11px;
+    color: var(--text-muted);
+}
+
+/* ─── 미니 히스토리 ─────────────────────────────────── */
+.miniHistory {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    padding: 10px 20px;
+    flex-shrink: 0;
+    min-height: 44px;
+}
+
+.miniItem {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 10px;
+    border-radius: var(--radius-full);
+    font-size: 14px;
+    animation: fadeIn 0.2s ease;
+}
+
+.miniOk {
+    background: rgba(63, 185, 80, 0.12);
+    color: var(--success);
+    border: 1px solid rgba(63, 185, 80, 0.3);
+}
+
+.miniWrong {
+    background: rgba(248, 81, 73, 0.12);
+    color: var(--danger);
+    border: 1px solid rgba(248, 81, 73, 0.3);
+}
+
+/* ─── 결과 화면 ─────────────────────────────────────── */
+.resultBody {
+    max-width: 820px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 28px 24px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.resultStats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+@media (max-width: 600px) {
+    .resultStats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.statCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    background: var(--bg-glass);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 20px 16px;
+}
+
+.statLabel {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+
+.statValue {
+    font-family: var(--font-mono);
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--text-primary);
+}
+
+.resultSection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.resultSectionTitle {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.wrongList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.wrongItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    background: rgba(248, 81, 73, 0.08);
+    border: 1px solid rgba(248, 81, 73, 0.2);
+    border-radius: var(--radius-md);
+    padding: 12px 16px;
+    min-width: 80px;
+}
+
+.wrongKana {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--danger);
+}
+
+.wrongRomaji {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+
+.wrongCount {
+    font-size: 11px;
+    color: var(--danger);
+}
+
+.resultGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+    gap: 8px;
+}
+
+.resultItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    padding: 10px 8px;
+    border-radius: var(--radius-md);
+    border: 1px solid;
+    text-align: center;
+}
+
+.resultItemOk {
+    background: rgba(63, 185, 80, 0.06);
+    border-color: rgba(63, 185, 80, 0.2);
+}
+
+.resultItemWrong {
+    background: rgba(248, 81, 73, 0.08);
+    border-color: rgba(248, 81, 73, 0.25);
+}

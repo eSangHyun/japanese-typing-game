@@ -1,0 +1,311 @@
+.page {
+    min-height: 100vh;
+    background: var(--bg-primary);
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 24px;
+    background: var(--bg-glass);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+}
+
+.backBtn {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 13px;
+    width: 90px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.stats {
+    display: flex;
+    gap: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--accent-primary);
+    width: auto;
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 24px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Setup Screen */
+.setupCard {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    box-shadow: var(--shadow-lg);
+}
+
+.textList {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 8px;
+}
+
+.textItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.textItem:hover {
+    border-color: var(--accent-primary);
+    background: var(--bg-glass-light);
+}
+
+.textItemActive {
+    border-color: var(--accent-primary);
+    background: var(--accent-gradient-subtle);
+}
+
+.textMain {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.textTitle {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.textAuthor {
+    font-size: 13px;
+    color: var(--text-muted);
+}
+
+.textMeta {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.diffBadge {
+    font-size: 11px;
+    color: var(--warning);
+}
+
+.startBtn {
+    padding: 18px;
+    background: var(--accent-gradient);
+    color: #fff;
+    border: none;
+    border-radius: var(--radius-lg);
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: var(--shadow-glow-pink);
+    transition: transform 0.2s;
+}
+
+.startBtn:disabled {
+    background: var(--bg-tertiary);
+    color: var(--text-muted);
+    box-shadow: none;
+    cursor: not-allowed;
+}
+
+/* playing Screen */
+.playingLayout {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.textArea {
+    flex: 1;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 30px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    line-height: 2.2;
+    font-size: 24px;
+    font-family: var(--font-jp);
+}
+
+.lineWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: opacity 0.3s;
+}
+
+.linePassive {
+    opacity: 0.3;
+}
+
+.lineActive {
+    opacity: 1;
+}
+
+.contentLine {
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.readingLine {
+    font-size: 16px;
+    height: 1.5em;
+    /* Prevent layout shift */
+    color: var(--text-muted);
+    display: flex;
+    gap: 0.2em;
+}
+
+/* Highlights */
+.charOk {
+    color: var(--success);
+}
+
+.charNg {
+    color: var(--danger);
+    text-decoration: underline;
+}
+
+.charCur {
+    border-bottom: 2px solid var(--accent-primary);
+    color: var(--text-primary);
+}
+
+.charPending {
+    color: var(--text-muted);
+}
+
+.inputField {
+    width: 100%;
+    background: var(--bg-secondary);
+    border: 2px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 20px 30px;
+    color: var(--text-primary);
+    font-family: var(--font-jp);
+    font-size: 24px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.inputField:focus {
+    border-color: var(--accent-primary);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.progressLabel {
+    font-family: var(--font-mono);
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+/* Results */
+.resultCard {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.resultGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    width: 100%;
+}
+
+.resItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.resLabel {
+    font-size: 12px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+}
+
+.resValue {
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--text-primary);
+    font-family: var(--font-mono);
+}
+
+.resActions {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+}
+
+.resBtn {
+    flex: 1;
+    padding: 16px;
+    border-radius: var(--radius-md);
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btnPrimary {
+    background: var(--accent-gradient);
+    color: #fff;
+    border: none;
+}
+
+.btnSecondary {
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+    border: 1px solid var(--border);
+}

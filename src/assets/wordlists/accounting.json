@@ -1,0 +1,730 @@
+[
+    {
+        "id": "acc-001",
+        "japanese": "資産",
+        "reading": "しさん",
+        "romaji": "shisan",
+        "meaning_ko": "자산",
+        "category": "accounting",
+        "difficulty": 1,
+        "tags": [
+            "JLPT-N3",
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-002",
+        "japanese": "負債",
+        "reading": "ふさい",
+        "romaji": "fusai",
+        "meaning_ko": "부채",
+        "category": "accounting",
+        "difficulty": 2,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-003",
+        "japanese": "純資産",
+        "reading": "じゅんしさん",
+        "romaji": "junshisan",
+        "meaning_ko": "순자산",
+        "category": "accounting",
+        "difficulty": 3,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-004",
+        "japanese": "売上高",
+        "reading": "うりあげだか",
+        "romaji": "uriagedaka",
+        "meaning_ko": "매출액",
+        "category": "accounting",
+        "difficulty": 3,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-005",
+        "japanese": "費用",
+        "reading": "ひよう",
+        "romaji": "hiyou",
+        "meaning_ko": "비용",
+        "category": "accounting",
+        "difficulty": 1,
+        "tags": [
+            "JLPT-N3",
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-006",
+        "japanese": "収益",
+        "reading": "しゅうえき",
+        "romaji": "shuueki",
+        "meaning_ko": "수익",
+        "category": "accounting",
+        "difficulty": 2,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-007",
+        "japanese": "現金",
+        "reading": "げんきん",
+        "romaji": "genkin",
+        "meaning_ko": "현금",
+        "category": "accounting",
+        "difficulty": 1,
+        "tags": [
+            "JLPT-N3",
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-008",
+        "japanese": "預金",
+        "reading": "よきん",
+        "romaji": "yokin",
+        "meaning_ko": "예금",
+        "category": "accounting",
+        "difficulty": 1,
+        "tags": [
+            "JLPT-N3",
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-009",
+        "japanese": "売掛金",
+        "reading": "うりかけきん",
+        "romaji": "urikakekin",
+        "meaning_ko": "매출채권",
+        "category": "accounting",
+        "difficulty": 3,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-010",
+        "japanese": "買掛金",
+        "reading": "かいかけきん",
+        "romaji": "kaikakekin",
+        "meaning_ko": "매입채무",
+        "category": "accounting",
+        "difficulty": 3,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-011",
+        "japanese": "棚卸資産",
+        "reading": "たなおろししさん",
+        "romaji": "tanaoroshishisan",
+        "meaning_ko": "재고자산",
+        "category": "accounting",
+        "difficulty": 4,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-012",
+        "japanese": "固定資産",
+        "reading": "こていしさん",
+        "romaji": "koteishisan",
+        "meaning_ko": "고정자산",
+        "category": "accounting",
+        "difficulty": 2,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-013",
+        "japanese": "減価償却",
+        "reading": "げんかしょうきゃく",
+        "romaji": "genkashoukyaku",
+        "meaning_ko": "감가상각",
+        "category": "accounting",
+        "difficulty": 5,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-014",
+        "japanese": "借入金",
+        "reading": "かりいれきん",
+        "romaji": "kariirekin",
+        "meaning_ko": "차입금",
+        "category": "accounting",
+        "difficulty": 3,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-015",
+        "japanese": "資本金",
+        "reading": "しほんきん",
+        "romaji": "shihonkin",
+        "meaning_ko": "자본금",
+        "category": "accounting",
+        "difficulty": 2,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-016",
+        "japanese": "利益",
+        "reading": "りえき",
+        "romaji": "rieki",
+        "meaning_ko": "이익",
+        "category": "accounting",
+        "difficulty": 1,
+        "tags": [
+            "JLPT-N3",
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-017",
+        "japanese": "損失",
+        "reading": "そんしつ",
+        "romaji": "sonshitsu",
+        "meaning_ko": "손실",
+        "category": "accounting",
+        "difficulty": 2,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-018",
+        "japanese": "貸借対照表",
+        "reading": "たいしゃくたいしょうひょう",
+        "romaji": "taishakutaishouhyou",
+        "meaning_ko": "대차대조표",
+        "category": "accounting",
+        "difficulty": 5,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-019",
+        "japanese": "損益計算書",
+        "reading": "そんえきけいさんしょ",
+        "romaji": "son'ekkeisansho",
+        "meaning_ko": "손익계산서",
+        "category": "accounting",
+        "difficulty": 5,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-020",
+        "japanese": "キャッシュフロー",
+        "reading": "きゃっしゅふろー",
+        "romaji": "kyasshufuroo",
+        "meaning_ko": "현금흐름",
+        "category": "accounting",
+        "difficulty": 2,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-021",
+        "japanese": "売上原価",
+        "reading": "うりあげげんか",
+        "romaji": "uriagenka",
+        "meaning_ko": "매출원가",
+        "category": "accounting",
+        "difficulty": 3,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-022",
+        "japanese": "粗利益",
+        "reading": "あらりえき",
+        "romaji": "ararieki",
+        "meaning_ko": "매출총이익",
+        "category": "accounting",
+        "difficulty": 3,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-023",
+        "japanese": "営業利益",
+        "reading": "えいぎょうりえき",
+        "romaji": "eigyourieki",
+        "meaning_ko": "영업이익",
+        "category": "accounting",
+        "difficulty": 3,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-024",
+        "japanese": "当期純利益",
+        "reading": "とうきじゅんりえき",
+        "romaji": "toukijunrieki",
+        "meaning_ko": "당기순이익",
+        "category": "accounting",
+        "difficulty": 4,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-025",
+        "japanese": "減損損失",
+        "reading": "げんそんそんしつ",
+        "romaji": "gensonsoshitsu",
+        "meaning_ko": "손상차손",
+        "category": "accounting",
+        "difficulty": 4,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-026",
+        "japanese": "引当金",
+        "reading": "ひきあてきん",
+        "romaji": "hikiatekin",
+        "meaning_ko": "충당금",
+        "category": "accounting",
+        "difficulty": 3,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-027",
+        "japanese": "有価証券",
+        "reading": "ゆうかしょうけん",
+        "romaji": "yuukashouken",
+        "meaning_ko": "유가증권",
+        "category": "accounting",
+        "difficulty": 4,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-028",
+        "japanese": "流動資産",
+        "reading": "りゅうどうしさん",
+        "romaji": "ryuudoushisan",
+        "meaning_ko": "유동자산",
+        "category": "accounting",
+        "difficulty": 3,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-029",
+        "japanese": "流動負債",
+        "reading": "りゅうどうふさい",
+        "romaji": "ryuudoufusai",
+        "meaning_ko": "유동부채",
+        "category": "accounting",
+        "difficulty": 3,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-030",
+        "japanese": "長期借入金",
+        "reading": "ちょうきかりいれきん",
+        "romaji": "choukikariirekin",
+        "meaning_ko": "장기차입금",
+        "category": "accounting",
+        "difficulty": 4,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-031",
+        "japanese": "支払手形",
+        "reading": "しはらいてがた",
+        "romaji": "shiharaitegata",
+        "meaning_ko": "지급어음",
+        "category": "accounting",
+        "difficulty": 4,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-032",
+        "japanese": "受取手形",
+        "reading": "うけとりてがた",
+        "romaji": "ukētoritegata",
+        "meaning_ko": "받을어음",
+        "category": "accounting",
+        "difficulty": 4,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-033",
+        "japanese": "繰越利益剰余金",
+        "reading": "くりこしりえきじょうよきん",
+        "romaji": "kurikoshiriekijouokin",
+        "meaning_ko": "이월이익잉여금",
+        "category": "accounting",
+        "difficulty": 5,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-034",
+        "japanese": "資本剰余金",
+        "reading": "しほんじょうよきん",
+        "romaji": "shihonjouyokin",
+        "meaning_ko": "자본잉여금",
+        "category": "accounting",
+        "difficulty": 4,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-035",
+        "japanese": "配当金",
+        "reading": "はいとうきん",
+        "romaji": "haitoukin",
+        "meaning_ko": "배당금",
+        "category": "accounting",
+        "difficulty": 2,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-036",
+        "japanese": "税引前利益",
+        "reading": "ぜいひきまえりえき",
+        "romaji": "zeihikimae rieki",
+        "meaning_ko": "세전이익",
+        "category": "accounting",
+        "difficulty": 4,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-037",
+        "japanese": "法人税",
+        "reading": "ほうじんぜい",
+        "romaji": "houjinzei",
+        "meaning_ko": "법인세",
+        "category": "accounting",
+        "difficulty": 2,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-038",
+        "japanese": "消費税",
+        "reading": "しょうひぜい",
+        "romaji": "shouhizei",
+        "meaning_ko": "소비세",
+        "category": "accounting",
+        "difficulty": 2,
+        "tags": [
+            "JLPT-N3",
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-039",
+        "japanese": "減価償却費",
+        "reading": "げんかしょうきゃくひ",
+        "romaji": "genkashoukyakuhi",
+        "meaning_ko": "감가상각비",
+        "category": "accounting",
+        "difficulty": 5,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-040",
+        "japanese": "支払利息",
+        "reading": "しはらいりそく",
+        "romaji": "shiharairisoku",
+        "meaning_ko": "이자비용",
+        "category": "accounting",
+        "difficulty": 3,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-041",
+        "japanese": "受取利息",
+        "reading": "うけとりりそく",
+        "romaji": "uketoririsoku",
+        "meaning_ko": "이자수익",
+        "category": "accounting",
+        "difficulty": 3,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-042",
+        "japanese": "為替差損益",
+        "reading": "かわせさそんえき",
+        "romaji": "kawasesason'eki",
+        "meaning_ko": "외환손익",
+        "category": "accounting",
+        "difficulty": 5,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-043",
+        "japanese": "退職給付費用",
+        "reading": "たいしょくきゅうふひよう",
+        "romaji": "taishokukyuufuhiyou",
+        "meaning_ko": "퇴직급여비용",
+        "category": "accounting",
+        "difficulty": 5,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-044",
+        "japanese": "のれん",
+        "reading": "のれん",
+        "romaji": "noren",
+        "meaning_ko": "영업권",
+        "category": "accounting",
+        "difficulty": 2,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-045",
+        "japanese": "会計",
+        "reading": "かいけい",
+        "romaji": "kaikei",
+        "meaning_ko": "회계",
+        "category": "accounting",
+        "difficulty": 1,
+        "tags": [
+            "JLPT-N3",
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-046",
+        "japanese": "決算",
+        "reading": "けっさん",
+        "romaji": "kessan",
+        "meaning_ko": "결산",
+        "category": "accounting",
+        "difficulty": 2,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-047",
+        "japanese": "仕訳",
+        "reading": "しわけ",
+        "romaji": "shiwake",
+        "meaning_ko": "분개",
+        "category": "accounting",
+        "difficulty": 3,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-048",
+        "japanese": "借方",
+        "reading": "かりかた",
+        "romaji": "karikata",
+        "meaning_ko": "차변",
+        "category": "accounting",
+        "difficulty": 2,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-049",
+        "japanese": "貸方",
+        "reading": "かしかた",
+        "romaji": "kashikata",
+        "meaning_ko": "대변",
+        "category": "accounting",
+        "difficulty": 2,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-050",
+        "japanese": "総勘定元帳",
+        "reading": "そうかんじょうもとちょう",
+        "romaji": "soukanjoumotichou",
+        "meaning_ko": "총계정원장",
+        "category": "accounting",
+        "difficulty": 5,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-051",
+        "japanese": "試算表",
+        "reading": "しさんひょう",
+        "romaji": "shisanhyou",
+        "meaning_ko": "시산표",
+        "category": "accounting",
+        "difficulty": 3,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-052",
+        "japanese": "補助簿",
+        "reading": "ほじょぼ",
+        "romaji": "hojobo",
+        "meaning_ko": "보조장부",
+        "category": "accounting",
+        "difficulty": 3,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-053",
+        "japanese": "株式",
+        "reading": "かぶしき",
+        "romaji": "kabushiki",
+        "meaning_ko": "주식",
+        "category": "accounting",
+        "difficulty": 2,
+        "tags": [
+            "JLPT-N3",
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-054",
+        "japanese": "社債",
+        "reading": "しゃさい",
+        "romaji": "shasai",
+        "meaning_ko": "사채",
+        "category": "accounting",
+        "difficulty": 3,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-055",
+        "japanese": "連結決算",
+        "reading": "れんけつけっさん",
+        "romaji": "renketsukessan",
+        "meaning_ko": "연결결산",
+        "category": "accounting",
+        "difficulty": 4,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-056",
+        "japanese": "親会社",
+        "reading": "おやがいしゃ",
+        "romaji": "oyagaisha",
+        "meaning_ko": "모회사",
+        "category": "accounting",
+        "difficulty": 2,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-057",
+        "japanese": "子会社",
+        "reading": "こがいしゃ",
+        "romaji": "kogaisha",
+        "meaning_ko": "자회사",
+        "category": "accounting",
+        "difficulty": 2,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-058",
+        "japanese": "持分法",
+        "reading": "もちぶんほう",
+        "romaji": "mochibunhou",
+        "meaning_ko": "지분법",
+        "category": "accounting",
+        "difficulty": 4,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-059",
+        "japanese": "原価",
+        "reading": "げんか",
+        "romaji": "genka",
+        "meaning_ko": "원가",
+        "category": "accounting",
+        "difficulty": 1,
+        "tags": [
+            "accounting"
+        ]
+    },
+    {
+        "id": "acc-060",
+        "japanese": "直接費",
+        "reading": "ちょくせつひ",
+        "romaji": "chokusetsushi",
+        "meaning_ko": "직접비",
+        "category": "accounting",
+        "difficulty": 3,
+        "tags": [
+            "accounting"
+        ]
+    }
+]

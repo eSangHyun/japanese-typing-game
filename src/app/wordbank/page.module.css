@@ -1,0 +1,580 @@
+.page {
+    min-height: 100vh;
+    background: var(--bg-primary);
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 24px;
+    background: var(--bg-glass);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+}
+
+.backBtn {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 13px;
+    transition: color var(--transition-fast);
+    width: 70px;
+}
+
+.backBtn:hover {
+    color: var(--text-primary);
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.practiceBtn {
+    background: var(--accent-gradient);
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: var(--radius-md);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.body {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+    height: calc(100vh - 56px);
+}
+
+/* Sidebar */
+.sidebar {
+    width: 260px;
+    border-right: 1px solid var(--border);
+    background: var(--bg-secondary);
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebarTitle {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    padding: 16px 16px 8px;
+    letter-spacing: 0.1em;
+}
+
+.createBox {
+    display: flex;
+    gap: 6px;
+    padding: 0 16px 12px;
+}
+
+.createInput {
+    flex: 1;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    color: var(--text-primary);
+    font-size: 13px;
+    padding: 7px 10px;
+    outline: none;
+}
+
+.createInput:focus {
+    border-color: var(--accent-primary);
+}
+
+.createBtn {
+    width: 32px;
+    height: 32px;
+    background: var(--accent-gradient);
+    border: none;
+    border-radius: var(--radius-sm);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sidebarActions {
+    padding: 0 16px 12px;
+}
+
+.importBtn {
+    width: 100%;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    color: var(--text-secondary);
+    font-size: 12px;
+    padding: 8px;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.importBtn:hover {
+    border-color: var(--accent-primary);
+    color: var(--text-primary);
+}
+
+.listItems {
+    flex: 1;
+    overflow-y: auto;
+    padding: 0 8px 20px;
+}
+
+.listItem {
+    display: flex;
+    align-items: center;
+    border-radius: var(--radius-md);
+    margin-bottom: 2px;
+}
+
+.listItem:hover {
+    background: var(--bg-glass-light);
+}
+
+.listItemActive {
+    background: var(--accent-gradient-subtle) !important;
+}
+
+.listItemBtn {
+    flex: 1;
+    text-align: left;
+    background: none;
+    border: none;
+    padding: 10px 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listItemName {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.listItemCount {
+    font-size: 11px;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+}
+
+.listDeleteBtn {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 18px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.listDeleteBtn:hover {
+    color: var(--danger);
+}
+
+/* Main Content */
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.empty {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    color: var(--text-muted);
+}
+
+.emptyIcon {
+    font-size: 64px;
+    opacity: 0.3;
+}
+
+.wordListHeader {
+    padding: 24px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titleDisplay {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.titleRow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.wordListTitle {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--text-primary);
+}
+
+.editTitleBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+}
+
+.editTitleBtn:hover {
+    opacity: 1;
+}
+
+.builtinBadge {
+    font-size: 10px;
+    background: rgba(88, 166, 255, 0.1);
+    color: var(--info);
+    border: 1px solid rgba(88, 166, 255, 0.3);
+    padding: 2px 8px;
+    border-radius: 99px;
+}
+
+.wordListDesc {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+/* Meta Editing */
+.editMetaBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+}
+
+.editMetaInput {
+    background: var(--bg-tertiary);
+    border: 2px solid var(--accent-primary);
+    border-radius: var(--radius-md);
+    color: var(--text-primary);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 8px 12px;
+    outline: none;
+}
+
+.editMetaDesc {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    color: var(--text-primary);
+    font-size: 14px;
+    padding: 10px;
+    min-height: 80px;
+    resize: vertical;
+    outline: none;
+}
+
+.editMetaBtns {
+    display: flex;
+    gap: 8px;
+}
+
+.metaSaveBtn {
+    background: var(--accent-gradient);
+    color: #fff;
+    border: none;
+    padding: 6px 16px;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.metaCancelBtn {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    padding: 6px 12px;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+}
+
+/* Actions Bar */
+.wordListActions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.searchBox {
+    flex: 1;
+    max-width: 300px;
+}
+
+.searchInput {
+    width: 100%;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 8px 14px;
+    color: var(--text-primary);
+    outline: none;
+}
+
+.searchInput:focus {
+    border-color: var(--accent-primary);
+}
+
+.extraActions {
+    display: flex;
+    gap: 8px;
+}
+
+.addWordBtn {
+    background: var(--accent-gradient);
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.actionBtn {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    padding: 8px 14px;
+    border-radius: var(--radius-md);
+    font-size: 13px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.actionBtn:hover {
+    border-color: var(--accent-primary);
+    color: var(--text-primary);
+}
+
+/* Word Table */
+.wordTableContainer {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.wordTable {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.wordTable th {
+    position: sticky;
+    top: 0;
+    background: var(--bg-secondary);
+    padding: 12px 24px;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+    z-index: 10;
+}
+
+.wordRow {
+    border-bottom: 1px solid var(--border);
+    transition: background 0.1s;
+}
+
+.wordRow:hover {
+    background: var(--bg-glass-light);
+}
+
+.wordRow td {
+    padding: 12px 24px;
+    font-size: 14px;
+}
+
+.tdJp {
+    font-weight: 700;
+    color: var(--text-primary);
+    font-size: 16px;
+}
+
+.tdReading {
+    color: var(--accent-secondary);
+}
+
+.tdRomaji {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+
+.tdDiff {
+    color: var(--warning);
+    letter-spacing: -2px;
+}
+
+.tdActions {
+    display: flex;
+    gap: 8px;
+}
+
+.editBtn {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+}
+
+.editBtn:hover {
+    border-color: var(--accent-secondary);
+    color: var(--accent-secondary);
+}
+
+.deleteBtn {
+    background: none;
+    border: 1px solid transparent;
+    color: var(--text-muted);
+    font-size: 12px;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.deleteBtn:hover {
+    color: var(--danger);
+    text-decoration: underline;
+}
+
+/* Modal */
+.modalBackdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    width: min(480px, 90vw);
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.modalTitle {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--text-primary);
+}
+
+.formGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.field span {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-muted);
+}
+
+.field input {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 10px 12px;
+    color: var(--text-primary);
+    outline: none;
+}
+
+.field input:focus {
+    border-color: var(--accent-primary);
+}
+
+.diffGroup {
+    display: flex;
+    gap: 6px;
+}
+
+.diffItem {
+    flex: 1;
+    height: 36px;
+    border: 1px solid var(--border);
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: var(--radius-sm);
+}
+
+.diffActive {
+    background: var(--accent-gradient) !important;
+    color: #fff !important;
+    border-color: transparent !important;
+}
+
+.modalFooter {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.modalCancel {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.modalSave {
+    background: var(--accent-gradient);
+    color: #fff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: var(--radius-md);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.modalError {
+    color: var(--danger);
+    font-size: 13px;
+    text-align: right;
+}

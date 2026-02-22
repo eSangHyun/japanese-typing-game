@@ -1,0 +1,440 @@
+.page {
+    min-height: 100vh;
+    background: var(--bg-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 24px 40px;
+}
+
+/* ─── 헤더 ──────────────────────────────────────────── */
+.header {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0 16px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.logoJp {
+    font-family: var(--font-jp);
+    font-size: 20px;
+    font-weight: 700;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.logoKo {
+    font-size: 11px;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+}
+
+.settingsBtn {
+    padding: 8px 16px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    color: var(--text-secondary);
+    font-size: 13px;
+    text-decoration: none;
+    transition: all var(--transition-fast);
+}
+
+.settingsBtn:hover {
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+}
+
+/* ─── 히어로 ─────────────────────────────────────────── */
+.hero {
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    padding: 32px 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.heroTitle {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.4;
+    color: var(--text-primary);
+}
+
+.heroAccent {
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.heroSub {
+    font-size: 15px;
+    color: var(--text-secondary);
+}
+
+/* ─── 빠른 설정 ─────────────────────────────────────── */
+.quickSettings {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    background: var(--bg-glass);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    padding: 16px 28px;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    z-index: 20;
+}
+
+.quickItem {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.quickItem label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+
+.speedBtns,
+.modeBtns {
+    display: flex;
+    gap: 6px;
+}
+
+.speedBtn {
+    width: 36px;
+    height: 36px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border);
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.speedBtn:hover {
+    background: var(--bg-glass-light);
+    color: var(--text-primary);
+}
+
+.speedBtnActive {
+    background: var(--accent-gradient) !important;
+    border-color: transparent !important;
+    color: #fff !important;
+}
+
+.modeBtn {
+    padding: 8px 14px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border);
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    font-family: var(--font-jp);
+    font-size: 13px;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.modeBtn:hover {
+    background: var(--bg-glass-light);
+    color: var(--text-primary);
+}
+
+.modeBtnActive {
+    background: var(--accent-gradient-subtle) !important;
+    border-color: var(--border-accent) !important;
+    color: var(--accent-primary) !important;
+    font-weight: 600;
+}
+
+/* ─── 최고 기록 ─────────────────────────────────────── */
+.recordBadge {
+    font-size: 13px;
+    color: var(--text-secondary);
+    background: rgba(227, 179, 65, 0.1);
+    border: 1px solid rgba(227, 179, 65, 0.3);
+    border-radius: var(--radius-full);
+    padding: 6px 16px;
+}
+
+.recordBadge strong {
+    color: var(--warning);
+}
+
+/* ─── 모드 그리드 ────────────────────────────────────── */
+.modeGrid {
+    width: 100%;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+}
+
+@media (max-width: 640px) {
+    .modeGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.modeCard {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 20px 22px;
+    background: var(--bg-glass);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    transition: all var(--transition-normal);
+    position: relative;
+    animation: fadeIn 0.4s ease both;
+}
+
+.modeCard:hover:not(.modeCardDisabled) {
+    background: var(--bg-glass-light);
+    border-color: var(--border-accent);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-glow-pink);
+}
+
+.modeCardDisabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.modeCard:nth-child(1) {
+    animation-delay: 0.05s;
+}
+
+.modeCard:nth-child(2) {
+    animation-delay: 0.10s;
+}
+
+.modeCard:nth-child(3) {
+    animation-delay: 0.15s;
+}
+
+.modeCard:nth-child(4) {
+    animation-delay: 0.20s;
+}
+
+.modeCard:nth-child(5) {
+    animation-delay: 0.25s;
+}
+
+.modeCard:nth-child(6) {
+    animation-delay: 0.30s;
+}
+
+.modeIcon {
+    font-size: 32px;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--accent-gradient-subtle);
+    border-radius: var(--radius-md);
+    flex-shrink: 0;
+}
+
+.modeInfo {
+    flex: 1;
+}
+
+.modeName {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 4px;
+}
+
+.modeNameJp {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.modeNameKo {
+    font-size: 12px;
+    color: var(--text-muted);
+}
+
+.modeDesc {
+    font-size: 12px;
+    color: var(--text-secondary);
+    line-height: 1.4;
+}
+
+.badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    background: var(--bg-tertiary);
+    color: var(--text-muted);
+    border-radius: var(--radius-full);
+    padding: 2px 8px;
+}
+
+.arrow {
+    color: var(--text-muted);
+    font-size: 18px;
+    transition: transform var(--transition-fast), color var(--transition-fast);
+}
+
+.modeCard:hover .arrow {
+    transform: translateX(4px);
+    color: var(--accent-primary);
+}
+
+/* ─── 단어장 드롭다운 ────────────────────────────────── */
+.wordListDropdown {
+    position: relative;
+}
+
+.wordListBtn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 14px;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    color: var(--text-primary);
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+    min-width: 200px;
+    justify-content: space-between;
+    transition: all var(--transition-fast);
+}
+
+.wordListBtn:hover {
+    border-color: var(--accent-primary);
+    background: var(--bg-glass-light);
+}
+
+.dropdownArrow {
+    font-size: 10px;
+    color: var(--text-muted);
+    flex-shrink: 0;
+}
+
+.dropdownMenu {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 260px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    z-index: 100;
+    overflow: hidden;
+    animation: fadeIn 0.15s ease;
+}
+
+.dropdownItem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    transition: background var(--transition-fast);
+    gap: 8px;
+}
+
+.dropdownItem:hover {
+    background: var(--bg-glass-light);
+}
+
+.dropdownItemActive {
+    background: var(--accent-gradient-subtle) !important;
+}
+
+.dropdownItemInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.dropdownItemName {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.dropdownItemSub {
+    font-size: 11px;
+    color: var(--text-muted);
+}
+
+.dropdownItemCheck {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--accent-primary);
+    flex-shrink: 0;
+}
+
+.dropdownDivider {
+    height: 1px;
+    background: var(--border);
+    margin: 4px 0;
+}
+
+.dropdownManage {
+    display: block;
+    width: 100%;
+    padding: 10px 16px;
+    font-size: 13px;
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: all var(--transition-fast);
+    text-align: center;
+}
+
+.dropdownManage:hover {
+    background: var(--bg-glass-light);
+    color: var(--text-secondary);
+}
+
+/* ─── 푸터 ──────────────────────────────────────────── */
+.footer {
+    margin-top: 40px;
+    font-size: 11px;
+    color: var(--text-muted);
+}

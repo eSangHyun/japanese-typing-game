@@ -1,0 +1,116 @@
+.canvas {
+    position: relative;
+    flex: 1;
+    width: 100%;
+    /* 부모 너비 채우기 */
+    overflow: hidden;
+    background:
+        radial-gradient(ellipse at 20% 0%, rgba(255, 107, 157, 0.06) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 0%, rgba(192, 132, 252, 0.06) 0%, transparent 50%),
+        var(--bg-primary);
+}
+
+/* 위험선 — 빨간 점선 */
+.dangerLine {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: repeating-linear-gradient(90deg,
+            transparent 0px,
+            transparent 8px,
+            rgba(248, 81, 73, 0.4) 8px,
+            rgba(248, 81, 73, 0.4) 14px);
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* 바닥선 */
+.floor {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--danger), transparent);
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* 낙하 단어 래퍼 — translateX(-50%)로 가운데 정렬
+   animation과 transform 충돌을 피하기 위해
+   래퍼(position/translate)와 내부(animation) 분리 */
+.wordItem {
+    position: absolute;
+    /* translateX는 인라인 style로 margin-left 방식으로 처리 */
+    cursor: default;
+    user-select: none;
+}
+
+.wordInner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    transform: translateX(-50%);
+    /* 가운데 정렬 */
+    transition: filter var(--transition-fast);
+    animation: wordAppear 0.25s ease both;
+}
+
+.wordItem.active .wordInner {
+    filter: brightness(1.6);
+}
+
+.wordItem.matched .wordInner {
+    animation: wordExplode 0.5s ease forwards;
+}
+
+@keyframes wordAppear {
+    from {
+        opacity: 0;
+        transform: translateX(-50%) scale(0.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(-50%) scale(1);
+    }
+}
+
+.furigana {
+    font-family: var(--font-jp);
+    font-size: 11px;
+    color: var(--text-secondary);
+    opacity: 0.8;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+}
+
+.japanese {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--font-jp);
+    letter-spacing: 0.05em;
+    text-shadow: 0 0 14px currentColor;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.meaning {
+    font-size: 10px;
+    color: var(--text-muted);
+    font-family: var(--font-ui);
+    white-space: nowrap;
+}
+
+.hitEffect {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    color: #fff;
+    font-weight: 900;
+    pointer-events: none;
+    animation: fadeOut 0.4s ease forwards;
+}
